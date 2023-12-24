@@ -3,7 +3,7 @@
     "name": "EEZ-DIB Library",
     "description": "This addon contains the Symbols, Footprint, and 3D Models for the EEZ DIB projects.",
     "description_full": "This addon contains the Symbols, Footprint, and 3D Models for the EEZ DIB projects.",
-    "identifier": "com.github.eez-open.kicad-libraries",
+    "identifier": "com.github.eez-open.eez-kicad-library",
     "type": "library",
     "author": {
         "name": "Envox d.o.o.",
@@ -19,11 +19,11 @@
     },
     "license": "CC-BY-SA-4.0",
     "resources": {
-        "homepage": "https://github.com/eez-open/kicad-libraries"
+        "homepage": "https://github.com/eez-open/eez-kicad-library"
     },
     "versions": [
         {
-            "version": "1.0.0",
+            "version": "1.0.1",
             "status": "stable",
             "kicad_version": "7.0.9"
         }
