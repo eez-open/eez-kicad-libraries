@@ -1,5 +1,6 @@
 (footprint "PANASONIC_C" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
+  (tags "Capacitor")
   (property "Sheetfile" "I%2fO_exp_connectors,_Isolated_PS,_RS485.kicad_sch")
   (property "Sheetname" "I/O exp connectors, Isolated PS, RS485")
   (attr smd)
