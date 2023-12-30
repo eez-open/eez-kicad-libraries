@@ -3,7 +3,7 @@
   (property "Sheetfile" "Ethernet_PHY,_Audio,_DACs.kicad_sch")
   (property "Sheetname" "Ethernet PHY, Audio, DACs")
   (attr smd)
-  (fp_text reference "REF**" (at 2.65 1.44 90) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0.8255 -2.667 180) (layer "F.SilkS")
       (effects (font (size 0.8128 0.8128) (thickness 0.1524)) (justify right bottom))
     (tstamp 58496c8b-e59c-4e3f-b7fd-a4c3349c572a)
   )
@@ -189,7 +189,7 @@
     (solder_mask_margin 0.0635) (thermal_bridge_angle 0) (tstamp 726e9d21-306c-4389-80ef-8e4e074cf584))
   (pad "25" smd roundrect (at 0 0) (size 2.5908 2.5908) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.01960784314)
     (solder_mask_margin 0.0635) (thermal_bridge_angle 0) (tstamp 605bae87-2948-4d0d-bfe2-4eaa80407b8f))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_kicad-libraries/SQFN24_4X4MC_MCH.step"
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/SQFN24_4X4MC_MCH.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

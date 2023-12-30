@@ -87,7 +87,7 @@
     (solder_mask_margin 0.0635) (thermal_bridge_angle 0) (tstamp a7b1d4bb-f3d6-4369-b962-3b715d183d09))
   (pad "16" thru_hole circle (at 8.89 -1.27) (size 1.4224 1.4224) (drill 1) (layers "*.Cu" "*.Mask")
     (solder_mask_margin 0.0635) (thermal_bridge_angle 0) (tstamp fe05468e-e52d-4910-b88d-819439ae5216))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_kicad-libraries/DS1013-16SSIB1--3DModel-STEP-510211.STEP"
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/DS1013-16SSIB1--3DModel-STEP-510211.STEP"
     (offset (xyz 0 0.127 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

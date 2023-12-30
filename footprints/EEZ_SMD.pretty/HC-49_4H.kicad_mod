@@ -53,7 +53,7 @@
     (solder_mask_margin 0.0635) (thermal_bridge_angle 0) (tstamp 295fe8b3-c261-4365-945c-17c9098b2494))
   (pad "2" smd roundrect (at 4.25 0) (size 4.5 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.0254)
     (solder_mask_margin 0.0635) (thermal_bridge_angle 0) (tstamp d107db82-e514-48d0-8260-a824ff4ba084))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_kicad-libraries/FOXSDLF_240F-20.STEP"
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/FOXSDLF_240F-20.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

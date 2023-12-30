@@ -61,7 +61,7 @@
     (solder_mask_margin 0.102) (tstamp 1ef9e7ae-6b8e-498d-bd1b-d7190522a4bd))
   (pad "16" smd roundrect (at 2.46 -4.445) (size 1.9 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.04)
     (solder_mask_margin 0.102) (tstamp 5c4bd916-bdf8-4efa-8710-af76d69642db))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_kicad-libraries/SOIC127P600X265-16N.step"
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/SOIC127P600X265-16N.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

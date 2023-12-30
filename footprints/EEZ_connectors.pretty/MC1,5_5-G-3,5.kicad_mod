@@ -46,7 +46,7 @@
   (pad "5" thru_hole roundrect (at 7 0) (size 1.8 1.8) (drill 1.2) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25)
     (chamfer_ratio 0.2928932188) (chamfer top_left top_right bottom_left bottom_right)
     (solder_mask_margin 0.0635) (thermal_bridge_angle 0) (tstamp e335aea8-9d6f-499a-9654-726a7e93548c))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_kicad-libraries/691322110005 (rev1).stp"
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/691322110005 (rev1).stp"
     (offset (xyz 0 -3.429 3.175))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

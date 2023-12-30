@@ -79,7 +79,7 @@
   (pad "SH" thru_hole oval (at -5.62 0) (size 1 2.2) (drill oval 0.6 1.8) (layers "*.Cu" "*.Mask") (tstamp 7b7ff1d4-8d0b-40bd-a8f3-9093ae4284a2))
   (pad "SH" thru_hole oval (at 5.62 -4) (size 0.9 1.8) (drill oval 0.6 1.4) (layers "*.Cu" "*.Mask") (tstamp 09c72a7c-3552-45bb-a978-d46589aabe3d))
   (pad "SH" thru_hole oval (at 5.62 0) (size 1 2.2) (drill oval 0.6 1.8) (layers "*.Cu" "*.Mask") (tstamp 564ecf04-85b5-4bf6-b073-4a11e1fea110))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_kicad-libraries/2169900003.stp"
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/2169900003.stp"
     (offset (xyz 0 1.5748 1.016))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

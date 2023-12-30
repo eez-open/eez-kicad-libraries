@@ -46,7 +46,7 @@
   (pad "10" smd rect (at 0.2 -0.750001 90) (size 0.499999 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 02b41e69-1224-46d3-a831-df11ac9aca8b))
   (pad "11" smd rect (at -0.2 -0.750001 90) (size 0.499999 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5feb6139-b964-44f9-9824-249ef6a6195e))
   (pad "12" smd rect (at -0.599999 -0.750001 90) (size 0.499999 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fb4d1807-2dbf-4f2b-8913-ebfa9e3a8ffe))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_kicad-libraries/RWB0012A.stp"
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/RWB0012A.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -56,7 +56,7 @@
     (stroke (width 0.1016) (type default)) (fill none) (layer "F.CrtYd") (tstamp 9e97eccf-6232-47e3-bf15-e6bcb46e0518))
   (pad "+" thru_hole rect (at -10 0) (size 2.2 2.2) (drill 1.3) (layers "*.Cu" "*.Mask") (tstamp 1ffaa8c0-b7ed-4801-b4d9-c29c26174f5f))
   (pad "-" thru_hole circle (at 10 0) (size 2.2 2.2) (drill 1.3) (layers "*.Cu" "*.Mask") (tstamp 4da483c6-6895-49dd-a428-4fc05d1d0eb5))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_kicad-libraries/supercap.step"
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/supercap.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

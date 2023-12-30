@@ -33,7 +33,7 @@
     (solder_mask_margin 0.0635) (thermal_bridge_angle 0) (tstamp b35d93b2-08cd-4889-8918-10a2820ee421))
   (pad "6" smd roundrect (at 0.65 -0.5) (size 0.654 0.3008) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1688829787)
     (solder_mask_margin 0.0635) (thermal_bridge_angle 0) (tstamp ae1cb962-2a21-4ce4-bbaa-32ee9899fc1e))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_kicad-libraries/DRL0006A.stp"
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/DRL0006A.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

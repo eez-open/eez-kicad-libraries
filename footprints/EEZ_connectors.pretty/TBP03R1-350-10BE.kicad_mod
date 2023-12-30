@@ -55,7 +55,7 @@
     (solder_mask_margin 0.102) (thermal_bridge_angle 90) (tstamp 89cc0272-344f-4961-8ef2-30a542f91be4))
   (pad "10" thru_hole circle (at 31.5 0) (size 2.1 2.1) (drill 1.4) (layers "*.Cu" "*.Mask")
     (solder_mask_margin 0.102) (thermal_bridge_angle 90) (tstamp f3636289-f11c-4767-a67a-55bde98d4e35))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_kicad-libraries/CUI_DEVICES_TBP03R1-350-10BE.step"
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/CUI_DEVICES_TBP03R1-350-10BE.step"
     (offset (xyz -2.159 -2.286 -2.667))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

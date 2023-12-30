@@ -1,4 +1,4 @@
-(footprint "DPACK" (version 20221018) (generator pcbnew)
+(footprint "DPAK" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "DPAK")
   (property "Sheetfile" "STM32H7_MCU.kicad_sch")
@@ -76,7 +76,7 @@
     (solder_mask_margin 0.0635) (thermal_bridge_angle 0) (tstamp b6f99269-a393-494d-abd3-342fa822a813))
   (pad "4" smd roundrect (at 0 -2.38) (size 5.8 6.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.00875862069)
     (solder_mask_margin 0.0635) (thermal_bridge_angle 0) (tstamp 8c03c187-0a63-4f8f-990b-87eef25cb4dd))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_kicad-libraries/LD1117ADT33TR.STEP"
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/LD1117ADT33TR.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

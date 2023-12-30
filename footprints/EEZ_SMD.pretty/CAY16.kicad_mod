@@ -9,6 +9,8 @@
       (effects (font (size 0.9144 0.9144) (thickness 0.1016)))
     (tstamp 18a90578-bbbf-4ab5-92a2-a6daa3551a74)
   )
+  (fp_rect (start -1.7145 -1.4605) (end 1.7145 1.4605)
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp c5dd94de-8934-47c2-ac17-17b9768dc817))
   (fp_line (start -1.55 -0.75) (end -1 -0.75)
     (stroke (width 0.1016) (type solid)) (layer "F.Fab") (tstamp bb97cbd7-a200-431f-9a43-33cce775c453))
   (fp_line (start -1.55 0.75) (end -1.55 -0.75)
@@ -57,7 +59,7 @@
     (solder_mask_margin 0.0635) (thermal_bridge_angle 0) (tstamp 71e9f9e5-2d3e-49f2-9359-4605ab6b520a))
   (pad "8" smd roundrect (at -1.35 -0.85) (size 0.5 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1016)
     (solder_mask_margin 0.0635) (thermal_bridge_angle 0) (tstamp 9d4c75ef-5549-482a-9426-06334dd53371))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_kicad-libraries/cat_16-j4.stp"
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/cat_16-j4.stp"
     (offset (xyz -1.5875 0 0.2286))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 90))

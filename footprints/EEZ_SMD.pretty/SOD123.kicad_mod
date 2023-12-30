@@ -28,6 +28,8 @@
     )
 
     (stroke (width 0) (type default)) (fill solid) (layer "F.SilkS") (tstamp b1cac4a6-418c-4f06-bf81-5fe981cf6838))
+  (fp_rect (start -2.7305 -0.9525) (end 2.7305 0.9525)
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 50d6902d-6cb1-4f03-8fab-d1d35b4a44be))
   (fp_line (start -1.1 -0.7) (end 1.1 -0.7)
     (stroke (width 0.254) (type solid)) (layer "F.Fab") (tstamp a372c94e-049a-47ea-854e-043459532169))
   (fp_line (start -1.1 0.7) (end -1.1 -0.7)
@@ -58,7 +60,7 @@
     (solder_mask_margin 0.0635) (thermal_bridge_angle 0) (tstamp 286f65d0-b193-475e-aa86-5715ec1ecc95))
   (pad "C" smd roundrect (at -1.9 0) (size 1.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.03628571429)
     (solder_mask_margin 0.0635) (thermal_bridge_angle 0) (tstamp 5151208b-81d7-4632-b2d7-cf051e8a10d6))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_kicad-libraries/SOD-123_ONS.step"
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/SOD-123_ONS.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

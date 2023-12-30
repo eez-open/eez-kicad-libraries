@@ -73,7 +73,7 @@
     (solder_mask_margin 0.0635) (thermal_bridge_angle 0) (tstamp 95d30376-42df-4077-aad2-45d116fb8634))
   (pad "5" smd roundrect (at 1.1938 -0.95) (size 1.3208 0.5588) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.09090909091)
     (solder_mask_margin 0.0635) (thermal_bridge_angle 0) (tstamp 2060c6cd-c738-49bb-a064-8c3807b46fa5))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_kicad-libraries/SOT23-5L_STM.step"
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/SOT23-5L_STM.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

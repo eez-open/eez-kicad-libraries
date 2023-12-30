@@ -33,7 +33,7 @@
     (solder_mask_margin 0.0635) (thermal_bridge_angle 0) (tstamp 025c8eb7-0be1-4536-8963-49773427f1a8))
   (pad "4" smd roundrect (at -1.0782 0.5) (size 0.8564 0.3492) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1454753723)
     (solder_mask_margin 0.0635) (thermal_bridge_angle 0) (tstamp 8b501942-960f-490d-bb09-50655db0de8b))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_kicad-libraries/IND_DLW21S_0805_MUR.step"
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/IND_DLW21S_0805_MUR.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

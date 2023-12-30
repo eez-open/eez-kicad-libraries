@@ -76,7 +76,7 @@
     (stroke (width 0.0254) (type solid)) (layer "F.Fab") (tstamp 26710758-a9dc-4f6f-ad55-485767a3b532))
   (pad "+" smd rect (at -2.032 0) (size 2.159 1.016) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 87706052-63ec-48bd-ad06-73169281b201))
   (pad "-" smd rect (at 2.032 0) (size 2.159 1.016) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5b9b7259-9804-4793-9d7b-02d6dbd13e04))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_kicad-libraries/EEE-1AA220WR.STEP"
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/EEE-1AA220WR.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

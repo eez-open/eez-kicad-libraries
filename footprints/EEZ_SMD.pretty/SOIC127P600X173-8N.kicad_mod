@@ -109,7 +109,7 @@
     (solder_mask_margin 0.0635) (thermal_bridge_angle 0) (tstamp 5f8ee6f0-7c5e-4a01-a3e7-7291d974fe08))
   (pad "8" smd roundrect (at 2.7 -1.9) (size 1.55 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.08466666667)
     (solder_mask_margin 0.0635) (thermal_bridge_angle 0) (tstamp edca77e6-5329-4c33-9347-bd195ae9375f))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_kicad-libraries/SO8N_4X5X1P27_STM.step"
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/SO8N_4X5X1P27_STM.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

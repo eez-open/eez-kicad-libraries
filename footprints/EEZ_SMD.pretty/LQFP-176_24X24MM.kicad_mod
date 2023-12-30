@@ -676,7 +676,7 @@
     (solder_mask_margin 0.0635) (thermal_bridge_angle 0) (tstamp ea8685a7-736a-4801-abdb-cdc18893d132))
   (pad "176" smd roundrect (at -10.75 -12.75 270) (size 1.2 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1693333333)
     (solder_mask_margin 0.0635) (thermal_bridge_angle 0) (tstamp d9f3eebb-86bd-41ce-92d6-868c01f63045))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_kicad-libraries/LQFP-176.step"
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/LQFP-176.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

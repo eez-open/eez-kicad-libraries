@@ -71,7 +71,7 @@
     (solder_mask_margin 0.0635) (thermal_bridge_angle 0) (tstamp 19e180b8-a5f6-47d2-a1c5-97a32ec5b40b))
   (pad "-" smd roundrect (at 1.4 0) (size 1.6 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.03175)
     (solder_mask_margin 0.0635) (thermal_bridge_angle 0) (tstamp 39fb4066-5e9a-4a40-af05-de6351ba3860))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_kicad-libraries/EC1206_kemet.step"
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/EC1206_kemet.step"
     (offset (xyz 1.524 0.889 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

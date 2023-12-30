@@ -146,7 +146,7 @@
   (pad "40" thru_hole roundrect (at 0 0) (size 1.5 1.5) (drill 1) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25)
     (chamfer_ratio 0.2928932188) (chamfer top_left top_right bottom_left bottom_right)
     (solder_mask_margin 0.0635) (thermal_bridge_angle 0) (tstamp d22db39f-2e19-42a9-a692-b237da627314))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_kicad-libraries/SSQ-120-02-S-D-RA.stp"
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/SSQ-120-02-S-D-RA.stp"
     (offset (xyz 24.13 4.064 2.54))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 180))
