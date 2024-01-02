@@ -8,7 +8,7 @@ To install the library, you need to download the "eez-kicad-library.zip" file fr
 
 ### Configuration
 
-The installed libraries will be available in the `KICAD7_3RD_PARTY` folder, which you can define under `Preferences -> Configure paths...` from the KiCad main menu:
+The installed libraries will be available in the `KICAD7_3RD_PARTY` folder, which you can define under `Preferences -> Configure Paths...` from the KiCad main menu:
 
 ![path config1](images/path_config1.png)
 

@@ -7,7 +7,7 @@
       (effects (font (size 0.8128 0.8128) (thickness 0.1524)) (justify right bottom))
     (tstamp 58496c8b-e59c-4e3f-b7fd-a4c3349c572a)
   )
-  (fp_text value "LAN8742A-CZ-TR" (at 0 0) (layer "F.Fab")
+  (fp_text value "" (at 0 0) (layer "F.Fab") hide
       (effects (font (size 0.92456 0.92456) (thickness 0.09144)))
     (tstamp 324e06b4-4a3d-48f4-89d2-7088feeeaca1)
   )
