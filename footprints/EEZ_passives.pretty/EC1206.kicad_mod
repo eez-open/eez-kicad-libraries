@@ -1,6 +1,5 @@
 (footprint "EC1206" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "<b>CAPACITOR</b>")
   (attr smd)
   (fp_text reference "REF**" (at -2.667 -1.2065) (layer "F.SilkS")
       (effects (font (size 0.8128 0.8128) (thickness 0.1524) bold) (justify left bottom))

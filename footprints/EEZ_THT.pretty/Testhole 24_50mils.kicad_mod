@@ -6,7 +6,7 @@
   (property "exclude_from_bom" "")
   (property "ki_description" "test point")
   (property "ki_keywords" "test point tp")
-  (attr through_hole exclude_from_bom)
+  (attr through_hole exclude_from_pos_files exclude_from_bom)
   (fp_text reference "REF**" (at 2.286 0 unlocked) (layer "F.SilkS")
       (effects (font (size 0.8128 0.8128) (thickness 0.1524) bold))
     (tstamp 5960c667-309a-48fc-bcda-7c529572296c)
