@@ -2,6 +2,7 @@
   (layer "F.Cu")
   (property "Sheetfile" "SDRAM,_JTAG,_SD_card,_EEPROM.kicad_sch")
   (property "Sheetname" "SDRAM, JTAG, SD card, EEPROM")
+  (attr exclude_from_bom)
   (fp_text reference "REF**" (at -5.2705 3.4925 90) (layer "F.SilkS")
       (effects (font (size 1.016 1.016) (thickness 0.1524)) (justify left bottom))
     (tstamp e7fcd921-b679-4dcb-af1a-567c7d82f9cd)
