@@ -1,14 +1,14 @@
 This repository contains the Symbols, Footprint, and 3D Models for the EEZ-DIB projects.
-The libraries in this repository are intended to be used with KiCad version 7.
+The libraries in this repository are intended to be used with KiCad version 8.
 
 ### Installation
 
-To install the library, you need to download the "eez-kicad-library.zip" file from the latest release.
+You need to download the zip file and install it from the `Plugin and Content Manager` located in KiCad main menu (shortcut `Ctrl+M`).
 
 
 ### Configuration
 
-The installed libraries will be available in the `KICAD7_3RD_PARTY` folder, which you can define under `Preferences -> Configure Paths...` from the KiCad main menu:
+The installed libraries will be available in the `KICAD8_3RD_PARTY` folder, which you can define under `Preferences -> Configure Paths...` from the KiCad main menu:
 
 ![path config1](images/path_config1.png)
 
