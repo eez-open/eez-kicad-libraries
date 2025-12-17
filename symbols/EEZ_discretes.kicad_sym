@@ -4707,11 +4707,11 @@
 				(stroke
 					(width 0.1524)
 					(type solid)
-					(color 255 0 0 1)
+					(color 194 0 0 1)
 				)
 				(fill
 					(type color)
-					(color 255 0 0 1)
+					(color 194 0 0 1)
 				)
 			)
 			(polyline
@@ -4721,7 +4721,7 @@
 				(stroke
 					(width 0.1524)
 					(type solid)
-					(color 255 0 0 1)
+					(color 194 0 0 1)
 				)
 				(fill
 					(type none)
@@ -4757,11 +4757,11 @@
 				(stroke
 					(width 0.254)
 					(type solid)
-					(color 255 0 0 1)
+					(color 194 0 0 1)
 				)
 				(fill
 					(type color)
-					(color 255 0 0 1)
+					(color 194 0 0 1)
 				)
 			)
 			(polyline
@@ -4771,7 +4771,7 @@
 				(stroke
 					(width 0.254)
 					(type solid)
-					(color 0 255 0 1)
+					(color 0 194 0 1)
 				)
 				(fill
 					(type none)
@@ -4784,7 +4784,7 @@
 				(stroke
 					(width 0.1524)
 					(type solid)
-					(color 0 255 0 1)
+					(color 0 194 0 1)
 				)
 				(fill
 					(type none)
@@ -4797,7 +4797,7 @@
 				(stroke
 					(width 0.1524)
 					(type solid)
-					(color 0 255 0 1)
+					(color 0 194 0 1)
 				)
 				(fill
 					(type none)
@@ -4866,11 +4866,11 @@
 				(stroke
 					(width 0)
 					(type solid)
-					(color 255 0 0 1)
+					(color 194 0 0 1)
 				)
 				(fill
 					(type color)
-					(color 255 0 0 1)
+					(color 194 0 0 1)
 				)
 			)
 			(polyline
@@ -4880,11 +4880,11 @@
 				(stroke
 					(width 0)
 					(type solid)
-					(color 255 0 0 1)
+					(color 194 0 0 1)
 				)
 				(fill
 					(type color)
-					(color 255 0 0 1)
+					(color 194 0 0 1)
 				)
 			)
 			(polyline
@@ -4897,7 +4897,7 @@
 				)
 				(fill
 					(type color)
-					(color 255 0 0 1)
+					(color 194 0 0 1)
 				)
 			)
 			(polyline
@@ -4907,11 +4907,11 @@
 				(stroke
 					(width 0)
 					(type solid)
-					(color 0 255 0 1)
+					(color 0 194 0 1)
 				)
 				(fill
 					(type color)
-					(color 0 255 0 1)
+					(color 0 194 0 1)
 				)
 			)
 			(polyline
@@ -4921,11 +4921,11 @@
 				(stroke
 					(width 0)
 					(type solid)
-					(color 0 255 0 1)
+					(color 0 194 0 1)
 				)
 				(fill
 					(type color)
-					(color 0 255 0 1)
+					(color 0 194 0 1)
 				)
 			)
 			(polyline
@@ -4935,11 +4935,11 @@
 				(stroke
 					(width 0)
 					(type solid)
-					(color 0 255 0 1)
+					(color 0 194 0 1)
 				)
 				(fill
 					(type color)
-					(color 0 255 0 1)
+					(color 0 194 0 1)
 				)
 			)
 		)
@@ -9648,6 +9648,456 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "SSF-LXH340LYGID"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "LED"
+			(at 1.905 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SSF-LXH340LYGID"
+			(at 1.905 -0.635 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_THT:SSF-LXH340LYGID"
+			(at 0.635 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED Circuit Board Indicator 3mm; Red, Green, Yellow"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "SSF-LXH340LYGID-ND"
+			(at 0 -10.16 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "696-SSFLXH340LYGID"
+			(at 0 -12.7 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "-"
+			(at 0 -15.24 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17285042"
+			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SSF-LXH340LYGID_1_0"
+			(polyline
+				(pts
+					(xy -2.032 1.778) (xy -3.429 0.381)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+					(color 194 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 194 0 0 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 0.635) (xy -3.302 -0.762)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+					(color 194 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+					(color 194 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "RA"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "RA"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.54)
+				(name "RC"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "RC"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SSF-LXH340LYGID_1_1"
+			(polyline
+				(pts
+					(xy -3.429 0.381) (xy -3.048 1.27) (xy -2.54 0.762) (xy -3.429 0.381)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 194 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 194 0 0 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.302 -0.762) (xy -2.921 0.127) (xy -2.413 -0.381) (xy -3.302 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 194 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 194 0 0 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 2.54) (xy 1.27 2.54) (xy 0 0) (xy -1.27 2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 194 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 194 0 0 1)
+				)
+			)
+		)
+		(symbol "SSF-LXH340LYGID_2_0"
+			(polyline
+				(pts
+					(xy -2.032 1.778) (xy -3.429 0.381)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+					(color 0 194 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 0.635) (xy -3.302 -0.762)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+					(color 0 194 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+					(color 0 194 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "GA"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "GA"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.54)
+				(name "GC"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "GC"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SSF-LXH340LYGID_2_1"
+			(polyline
+				(pts
+					(xy -3.429 0.381) (xy -3.048 1.27) (xy -2.54 0.762) (xy -3.429 0.381)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 194 0 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.302 -0.762) (xy -2.921 0.127) (xy -2.413 -0.381) (xy -3.302 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 194 0 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 2.54) (xy 1.27 2.54) (xy 0 0) (xy -1.27 2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 194 0 1)
+				)
+				(fill
+					(type color)
+					(color 0 194 0 1)
+				)
+			)
+		)
+		(symbol "SSF-LXH340LYGID_3_0"
+			(polyline
+				(pts
+					(xy -2.032 1.778) (xy -3.429 0.381)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+					(color 224 224 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 0.635) (xy -3.302 -0.762)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+					(color 224 224 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+					(color 224 224 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "YA"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "YA"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.54)
+				(name "YC"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "YC"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SSF-LXH340LYGID_3_1"
+			(polyline
+				(pts
+					(xy -3.429 0.381) (xy -3.048 1.27) (xy -2.54 0.762) (xy -3.429 0.381)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 224 224 0 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.302 -0.762) (xy -2.921 0.127) (xy -2.413 -0.381) (xy -3.302 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 224 224 0 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 2.54) (xy 1.27 2.54) (xy 0 0) (xy -1.27 2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 224 224 0 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "TLP291"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10942,7 +11392,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "WP934MD"
+	(symbol "WP934MD/LYLID"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10955,16 +11405,16 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "WP934MD"
+		(property "Value" "WP934MD/LYLID"
 			(at 1.905 -0.635 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_EEZ_THT:WP934MD_2YD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10982,8 +11432,48 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "T-1 (3mm) Bi-level LED Indicator"
-			(at 0 0 0)
+		(property "Description" "T-1 (3mm) Bi-level LED Indicator (Red/Yellow)"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "350-2716-ND"
+			(at 0 -7.62 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "604-WP934MDLYLID"
+			(at 0 -10.16 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "-"
+			(at 0 -12.7 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
+			(at 0 -15.24 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11008,7 +11498,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "WP934MD_1_0"
+		(symbol "WP934MD/LYLID_1_0"
 			(polyline
 				(pts
 					(xy -2.032 1.778) (xy -3.429 0.381)
@@ -11016,6 +11506,7 @@
 				(stroke
 					(width 0.1524)
 					(type solid)
+					(color 194 194 0 1)
 				)
 				(fill
 					(type none)
@@ -11028,6 +11519,7 @@
 				(stroke
 					(width 0.1524)
 					(type solid)
+					(color 194 194 0 1)
 				)
 				(fill
 					(type none)
@@ -11035,35 +11527,12 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 0 0)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy -1.27 0)
+					(xy 1.27 0) (xy -1.27 0)
 				)
 				(stroke
 					(width 0.254)
 					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 0) (xy 0 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
+					(color 194 194 0 1)
 				)
 				(fill
 					(type none)
@@ -11106,14 +11575,15 @@
 				)
 			)
 		)
-		(symbol "WP934MD_1_1"
+		(symbol "WP934MD/LYLID_1_1"
 			(polyline
 				(pts
 					(xy -3.429 0.381) (xy -3.048 1.27) (xy -2.54 0.762) (xy -3.429 0.381)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+					(color 194 194 0 1)
 				)
 				(fill
 					(type outline)
@@ -11125,7 +11595,8 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+					(color 194 194 0 1)
 				)
 				(fill
 					(type outline)
@@ -11137,14 +11608,16 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+					(color 194 194 0 1)
 				)
 				(fill
-					(type outline)
+					(type color)
+					(color 194 194 0 1)
 				)
 			)
 		)
-		(symbol "WP934MD_2_0"
+		(symbol "WP934MD/LYLID_2_0"
 			(polyline
 				(pts
 					(xy -2.032 1.778) (xy -3.429 0.381)
@@ -11152,6 +11625,7 @@
 				(stroke
 					(width 0.1524)
 					(type solid)
+					(color 194 0 0 1)
 				)
 				(fill
 					(type none)
@@ -11164,6 +11638,7 @@
 				(stroke
 					(width 0.1524)
 					(type solid)
+					(color 194 0 0 1)
 				)
 				(fill
 					(type none)
@@ -11171,35 +11646,12 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 0 0)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy -1.27 0)
+					(xy 1.27 0) (xy -1.27 0)
 				)
 				(stroke
 					(width 0.254)
 					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 0) (xy 0 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
+					(color 194 0 0 1)
 				)
 				(fill
 					(type none)
@@ -11242,14 +11694,15 @@
 				)
 			)
 		)
-		(symbol "WP934MD_2_1"
+		(symbol "WP934MD/LYLID_2_1"
 			(polyline
 				(pts
 					(xy -3.429 0.381) (xy -3.048 1.27) (xy -2.54 0.762) (xy -3.429 0.381)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+					(color 194 0 0 1)
 				)
 				(fill
 					(type outline)
@@ -11261,7 +11714,8 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+					(color 194 0 0 1)
 				)
 				(fill
 					(type outline)
@@ -11273,7 +11727,8 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+					(color 194 0 0 1)
 				)
 				(fill
 					(type outline)

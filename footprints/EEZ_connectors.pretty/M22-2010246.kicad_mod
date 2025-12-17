@@ -174,7 +174,7 @@
 	(pad "1" thru_hole rect
 		(at -1 0)
 		(size 1.358 1.358)
-		(drill 0.85)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
@@ -183,7 +183,7 @@
 	(pad "2" thru_hole circle
 		(at 1 0)
 		(size 1.358 1.358)
-		(drill 0.85)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)

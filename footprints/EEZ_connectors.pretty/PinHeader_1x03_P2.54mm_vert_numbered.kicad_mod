@@ -1,0 +1,216 @@
+(footprint "PinHeader_1x03_P2.54mm_vert_numbered"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
+	(tags "Through hole pin header THT 1x03 2.54mm single row")
+	(property "Reference" "REF**"
+		(at 0 -2.1 0)
+		(layer "F.SilkS")
+		(uuid "d37cb1b4-d10b-4570-a17d-a181e220e56f")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Value" "PinHeader_1x03_P2.54mm_vert_numbered"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "09d5e87e-d694-449c-a961-95b78d0b42c0")
+		(effects
+			(font
+				(size 0.6096 0.6096)
+				(thickness 0.1016)
+				(bold yes)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2dd13c8a-b8b7-4ae0-b1a1-18c800efadfe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82d2410e-17ac-46aa-93ee-a2f1ccc8b2a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.33 -1.3538)
+		(end 1.33 6.4362)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d7ca66f8-c08d-4bbc-81a2-658f3db2c7fd")
+	)
+	(fp_rect
+		(start -1.4 -1.41)
+		(end 1.4 6.51)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f43cdc7a-83e7-4ff1-bef7-1b064334d8f5")
+	)
+	(fp_line
+		(start -1.27 -0.635)
+		(end -0.635 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4de80ce7-8f3b-455f-9f71-15a464026f35")
+	)
+	(fp_line
+		(start -1.27 6.35)
+		(end -1.27 -0.635)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae440c12-dc6f-4718-96a0-65fdc945c9bd")
+	)
+	(fp_line
+		(start -0.635 -1.27)
+		(end 1.27 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3f510b67-fb58-4696-8e00-c629f402e40b")
+	)
+	(fp_line
+		(start 1.27 -1.27)
+		(end 1.27 6.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a2b3a513-2533-465b-a5b5-abe93c74c246")
+	)
+	(fp_line
+		(start 1.27 6.35)
+		(end -1.27 6.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5a46cabd-2d0f-4d50-b9ba-8b20924041d0")
+	)
+	(fp_text user "2"
+		(at 1.6 1.929191 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "040ef056-a516-4a09-907b-f4429738a8df")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "3"
+		(at 1.6 4.469191 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0a05759b-0fb4-441e-97af-e90946aed98e")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "1"
+		(at 1.6 -0.610809 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8aa958ee-4a15-40b6-9852-6fd548e02990")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.54 90)
+		(layer "F.Fab")
+		(uuid "85d5fae5-97f6-4dbf-b46a-c2324b8bf52e")
+		(effects
+			(font
+				(size 0.6096 0.6096)
+				(thickness 0.1016)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1)
+		(uuid "ad28bae4-25e9-400b-96da-9709c643d4eb")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b5051d81-e436-4534-9508-baa0b4178d14")
+	)
+	(pad "3" thru_hole circle
+		(at 0 5.08)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1e63aacd-284d-411f-a650-97159e68fd94")
+	)
+	(embedded_fonts no)
+	(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/PinHeader_1x03_P2.54mm_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

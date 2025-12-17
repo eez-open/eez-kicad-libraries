@@ -4521,7 +4521,7 @@
 			(at -1.27 1.27 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
@@ -4625,7 +4625,7 @@
 			(at -1.27 -2.54 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)

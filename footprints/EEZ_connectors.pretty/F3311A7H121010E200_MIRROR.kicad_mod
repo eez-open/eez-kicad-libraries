@@ -103,56 +103,16 @@
 		(layer "F.SilkS")
 		(uuid "40dbf04f-f2c6-41c1-8658-e67fbffd2e5c")
 	)
-	(fp_circle
-		(center 2.8 -1.2)
-		(end 2.9 -1.2)
+	(fp_rect
+		(start -3.9 -2.05)
+		(end 3.92 2.14)
 		(stroke
-			(width 0.2)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
 		(fill no)
-		(layer "F.SilkS")
-		(uuid "46b20279-685d-40f1-a70e-79a6e5f74118")
-	)
-	(fp_line
-		(start -3.75 -2.15)
-		(end -3.75 2.15)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
 		(layer "F.CrtYd")
-		(uuid "3726af00-480b-473f-aee0-0342bdb6d0c2")
-	)
-	(fp_line
-		(start -3.75 2.15)
-		(end 3.75 2.15)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "9f77dfd1-eb75-44dc-ab45-08abfcf71ab3")
-	)
-	(fp_line
-		(start 3.75 -2.15)
-		(end -3.75 -2.15)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "4faac430-0b49-4755-8bdf-5b3aa262310a")
-	)
-	(fp_line
-		(start 3.75 2.15)
-		(end 3.75 -2.15)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "fbc73a6e-0e31-497e-b229-36194b2b9fb3")
+		(uuid "52b2c06d-4a4a-410e-827a-9e072e2698b3")
 	)
 	(fp_line
 		(start -3.5 -1.9)
@@ -224,16 +184,18 @@
 		(layer "F.Fab")
 		(uuid "6e57376e-b147-45fc-ab56-9c40fbbac51d")
 	)
-	(fp_circle
-		(center 2.8 -1.2)
-		(end 2.9 -1.2)
-		(stroke
-			(width 0.2)
-			(type solid)
+	(fp_text user "1"
+		(at 3.523085 -0.627293 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "b2815cb2-5159-4c6c-b3cc-7ef1296bdccf")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
 		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "3053bde2-3298-432e-8ee3-7f5866abb016")
 	)
 	(pad "1" smd rect
 		(at 2.25 -1.22)
@@ -306,18 +268,18 @@
 		(uuid "81b48d22-1971-4c87-a3de-bec9282e70c6")
 	)
 	(pad "SH" smd rect
-		(at -3.25 1.28)
-		(size 0.4 0.8)
+		(at -3.45 1.43)
+		(size 0.8 1.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0)
-		(uuid "74c6514f-fe53-452e-bc33-360ba8fe6d4b")
+		(uuid "7aacda50-301c-42b6-8f25-2b61c9d011b3")
 	)
 	(pad "SH" smd rect
-		(at 3.25 1.28)
-		(size 0.4 0.8)
+		(at 3.45 1.43)
+		(size 0.8 1.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0)
-		(uuid "42b86fc7-fd03-46dd-967a-f809e4a87c5d")
+		(uuid "469f48ed-586d-4427-ba60-19fc59989aa1")
 	)
 	(embedded_fonts no)
 	(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/F3311A7H121010E200.stp"

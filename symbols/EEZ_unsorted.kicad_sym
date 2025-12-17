@@ -638,6 +638,120 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "B3/BN2842"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "KK"
+			(at 3.175 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "B3/BN2842"
+			(at 3.175 -1.905 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Washer; externally serrated; M3"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "-"
+			(at 0 -5.08 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "-"
+			(at 0 -7.62 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "B3/BN2842"
+			(at 0 -10.16 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "B3/BN2842_0_1"
+			(circle
+				(center 0 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 1.4199)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "B32-1360"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2472,6 +2586,111 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "IB-6"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "KK"
+			(at 3.175 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "IB-6"
+			(at 3.175 -1.905 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Insulating bushing"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "-"
+			(at 0 -5.08 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "-"
+			(at 0 -7.62 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "IB-6"
+			(at 0 -10.16 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "IB-6_0_1"
+			(polyline
+				(pts
+					(xy 0 -0.635) (xy 0.635 -0.635) (xy 0.635 0) (xy 1.905 0) (xy 1.905 -0.635) (xy 2.54 -0.635) (xy 2.54 -1.27)
+					(xy 0 -1.27) (xy 0 -0.635) (xy 1.905 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "JP2 open"
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3237,8 +3456,8 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -1.27 90)
-				(length 0.889)
+				(at 2.54 -2.54 90)
+				(length 2.159)
 				(name "2"
 					(effects
 						(font
@@ -5167,6 +5386,253 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "M3X8/D7985B"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "KK"
+			(at 2.54 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M3X8/D7985B"
+			(at 2.54 -1.905 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Screw; M3x8; 0.5; Head: cheese head; Phillips; PH1; DIN 7985"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "-"
+			(at 0 -5.08 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "-"
+			(at 0 -7.62 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "M3X8/D7985B"
+			(at 0 -10.16 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "M3X8/D7985B_0_1"
+			(polyline
+				(pts
+					(xy -0.0056 -0.0232) (xy 1.8994 -0.0232)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.0056 -0.0232)
+				(mid 0.1804 0.4258)
+				(end 0.6294 0.6118)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.6294 -0.0232) (xy 0.6294 -1.9282) (xy 1.2644 -1.9282) (xy 1.2644 -0.0232)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.6307 -0.6971) (xy 1.2615 -0.3705)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.6307 -1.0516) (xy 1.2615 -0.725)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.6307 -1.7326) (xy 1.2615 -1.406)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.6335 0.2408) (xy 0.6335 0.612)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.6335 -1.3921) (xy 1.2643 -1.0655)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0.6345 0.2608)
+				(end 1.2671 0.2354)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.6363 -0.3566) (xy 1.2671 -0.03)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.9433 -1.9169) (xy 1.2559 -1.7522)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.2644 0.6118)
+				(mid 1.7134 0.4258)
+				(end 1.8994 -0.0232)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.2671 0.238) (xy 1.2671 0.6092)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "MountingHole"
 		(pin_names
 			(offset 1.016)
@@ -5602,6 +6068,653 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Relay DK1A-L2-5V-F"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "K"
+			(at 3.81 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "DK1A-L2-5V-F"
+			(at 3.81 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_THT:RELAY_DK1A_L2_PAN"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power PCB Relay, 1 Form A, latching dual coil"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
+			(at 0 -10.16 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 -12.7 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 0 -15.24 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Relay latching dual coil"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Relay DK1A-L2-5V-F_1_0"
+			(polyline
+				(pts
+					(xy -1.905 -2.54) (xy 1.905 1.905)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 1.905)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -2.54 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "R"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Relay DK1A-L2-5V-F_1_1"
+			(rectangle
+				(start -3.81 1.905)
+				(end 3.81 -2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Relay DK1A-L2-5V-F_2_0"
+			(polyline
+				(pts
+					(xy 0 5.08) (xy -0.635 5.08)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 1.27)
+				(radius 0.127)
+				(stroke
+					(width 0.4064)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy -1.905 5.08)
+				)
+				(stroke
+					(width 0.4064)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 7.62 270)
+				(length 2.54)
+				(name "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 90)
+				(length 0)
+				(name "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Relay DK2A-L2-5V"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "K"
+			(at 3.81 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "DK2A-L2-5V"
+			(at 3.81 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_THT:RELAY_DK2A_L2_PAN"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power PCB Relay, 2 Form A, latching dual coil"
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "255-1604-ND"
+			(at 0 -12.7 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "769-DK2A-L2-5V"
+			(at 0 -15.24 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "DK2A-L2-5V"
+			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
+			(at 0 -20.32 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Relay"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Relay DK2A-L2-5V_1_0"
+			(polyline
+				(pts
+					(xy -1.905 -2.54) (xy 1.905 1.905)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 1.905)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -2.54 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "R"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Relay DK2A-L2-5V_1_1"
+			(rectangle
+				(start -3.81 1.905)
+				(end 3.81 -2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Relay DK2A-L2-5V_2_0"
+			(polyline
+				(pts
+					(xy 0 5.08) (xy -0.635 5.08)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 1.27)
+				(radius 0.127)
+				(stroke
+					(width 0.4064)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy -1.905 5.08)
+				)
+				(stroke
+					(width 0.4064)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 7.62 270)
+				(length 2.54)
+				(name "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 90)
+				(length 0)
+				(name "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Relay DK2A-L2-5V_3_0"
+			(polyline
+				(pts
+					(xy 0 5.08) (xy -0.635 5.08)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 1.27)
+				(radius 0.127)
+				(stroke
+					(width 0.4064)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy -1.905 5.08)
+				)
+				(stroke
+					(width 0.4064)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 7.62 270)
+				(length 2.54)
+				(name "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 90)
+				(length 0)
+				(name "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
 				)
 			)
 		)
@@ -6090,25 +7203,25 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "K"
-			(at 4.445 0.635 0)
+			(at 4.445 0 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Value" "EE2-5TNU-L"
-			(at 4.445 -1.524 0)
+			(at 4.445 -1.27 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.016 1.016)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Footprint" "PCM_EEZ_SMD:EE2-5TNU-L"
-			(at 0 0 0)
+			(at 0 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6125,8 +7238,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Miniature Signal Relay, bistabile"
-			(at 0 0 0)
+		(property "Description" "Signal relay, latching dual coil, 2A"
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6144,7 +7257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "80-EE2-5TNU-L"
+		(property "Mouser" "80-EE2-5TNU"
 			(at 0 -15.24 0)
 			(show_name)
 			(effects
@@ -6157,6 +7270,15 @@
 		(property "TME" "-"
 			(at 0 -17.78 0)
 			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6744,6 +7866,276 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Relay G6DN-1A-CF DCXX"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "K"
+			(at 4.445 -0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "G6DN-1A-CF DC5"
+			(at 4.445 -1.905 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_THT:G6DN-1A_OMR"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Relay Slim (SPST)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
+			(at 0 -10.16 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "655-RT424005 "
+			(at 0 -12.7 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 0 -15.24 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Relay"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Relay G6DN-1A-CF DCXX_1_0"
+			(polyline
+				(pts
+					(xy -1.905 -1.905) (xy 1.905 1.905)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 1.905)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 -1.905)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Relay G6DN-1A-CF DCXX_1_1"
+			(rectangle
+				(start -3.81 1.905)
+				(end 3.81 -1.905)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Relay G6DN-1A-CF DCXX_2_0"
+			(polyline
+				(pts
+					(xy 0 5.08) (xy -0.635 5.08)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 1.27)
+				(radius 0.127)
+				(stroke
+					(width 0.4064)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy -1.905 5.08)
+				)
+				(stroke
+					(width 0.4064)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 7.62 270)
+				(length 2.54)
+				(name "8"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 90)
+				(length 0)
+				(name "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.889 0.889)
 						)
 					)
 				)
@@ -8358,7 +9750,7 @@
 			)
 		)
 		(property "Description" "Heatsink extruded; TO220,TOP3; black; L: 84mm; W: 55mm; H: 28mm"
-			(at 0 0 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8366,7 +9758,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "-"
+		(property "DigiKey" "5496-SK9684SA-ND"
 			(at 0 -5.08 0)
 			(show_name)
 			(effects
@@ -8388,6 +9780,16 @@
 		)
 		(property "TME" "SK96/84SA"
 			(at 0 -10.16 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
+			(at 0 -12.7 0)
 			(show_name)
 			(effects
 				(font
@@ -9006,40 +10408,108 @@
 					(type none)
 				)
 			)
-			(pin passive line
-				(at 0 -2.54 90)
-				(length 2.54)
-				(name "1"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TO247_Thermal_pad"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "KK"
+			(at 4.445 -3.175 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SP400-0.007-00-104"
+			(at 4.445 -4.445 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "BER204-ND"
+			(at 0 -7.62 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "951-SP400-007-00-104"
+			(at 0 -10.16 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TO247_Thermal_pad_0_1"
+			(rectangle
+				(start 0 0)
+				(end 3.81 -5.715)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
-			(pin passive line
-				(at 2.54 -2.54 90)
-				(length 2.54)
-				(name "2"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
+			(circle
+				(center 1.905 -1.27)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
 				)
-				(number "2"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
+				(fill
+					(type none)
 				)
 			)
 		)
