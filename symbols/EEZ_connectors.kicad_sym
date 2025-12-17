@@ -25375,7 +25375,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "2x DF40HC(3.0)-100DS-0.4V(51"
+		(property "Value" "2x DF40C-100DP-0.4V(51)"
 			(at 0 -130.175 0)
 			(do_not_autoplace)
 			(effects
@@ -25412,7 +25412,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "26-DF40HC(3.0)-100DS-0.4V(51)CT-ND"
+		(property "DigiKey" "H11614CT-ND"
 			(at 0 -139.7 0)
 			(show_name)
 			(effects
@@ -25422,7 +25422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "798-DF40HC30100DS451"
+		(property "Mouser" "798-DF40C100DP0.4V51"
 			(at 0 -142.24 0)
 			(show_name)
 			(effects
@@ -25432,7 +25432,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" "-"
+		(property "TME" "DF40C-100DP-04V-51"
 			(at 0 -144.78 0)
 			(show_name)
 			(effects
@@ -25442,7 +25442,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C424649"
+		(property "LCSC" "C531031"
 			(at 0 -147.32 0)
 			(show_name)
 			(effects
@@ -26357,6 +26357,24 @@
 					)
 				)
 				(number "100"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -132.08 90)
+				(length 2.54)
+				(name "SH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "SH"
 					(effects
 						(font
 							(size 0.889 0.889)
