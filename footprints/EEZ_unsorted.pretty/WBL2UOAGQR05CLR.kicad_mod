@@ -1121,20 +1121,20 @@
 		(uuid "ce532eaa-5691-4895-ac6d-4b4a8a5e3b3e")
 	)
 	(pad "A" thru_hole circle
-		(at -3.7 -0.23)
-		(size 1.4 1.4)
-		(drill 0.9)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "19e9752f-2282-4a06-b26e-699a955aebf0")
-	)
-	(pad "C" thru_hole circle
 		(at -3.7 -2.77)
 		(size 1.4 1.4)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "f892cdac-6d6a-4fdd-97fa-7f91f7f58110")
+	)
+	(pad "C" thru_hole circle
+		(at -3.7 -0.23)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "19e9752f-2282-4a06-b26e-699a955aebf0")
 	)
 	(embedded_fonts no)
 	(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/WBL2UOAGQR05CLR.stp"
