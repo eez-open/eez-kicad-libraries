@@ -10039,7 +10039,7 @@
 			(pin input line
 				(at 0 0 0)
 				(length 5.08)
-				(name "VBUS_DET/GPIO16"
+				(name "VBUS_DET"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10307,24 +10307,6 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -53.34 0)
-				(length 5.08)
-				(name "HOST_TYPE0/GPIO23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "53"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
 				(at 0 -55.88 0)
 				(length 5.08)
 				(name "SPEED_IND7/BC_IND7/GPIO67"
@@ -10450,10 +10432,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at 0 -81.28 0)
 				(length 5.08)
-				(name "FLEX_CMD/GPIO10"
+				(name "FLEX_CMD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10504,10 +10486,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 0 -88.9 0)
 				(length 5.08)
-				(name "FLEX_STATE/GPIO72"
+				(name "FLEX_STATE"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11411,6 +11393,18 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 40.64 -36.195) (xy 16.51 -36.195)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(text "Power"
 				(at 15.875 3.175 0)
 				(effects
@@ -11421,7 +11415,7 @@
 				)
 			)
 			(text "Port power/OCS"
-				(at 17.145 3.175 0)
+				(at 17.78 -38.1 0)
 				(effects
 					(font
 						(size 0.889 0.889)
@@ -11782,114 +11776,6 @@
 					)
 				)
 				(number "101"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 45.72 0 180)
-				(length 5.08)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "79"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 45.72 -2.54 180)
-				(length 5.08)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "80"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 45.72 -5.08 180)
-				(length 5.08)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "81"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 45.72 -7.62 180)
-				(length 5.08)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "82"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 45.72 -10.16 180)
-				(length 5.08)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "84"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 45.72 -12.7 180)
-				(length 5.08)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "85"
 					(effects
 						(font
 							(size 1.27 1.27)
