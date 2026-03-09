@@ -1,4 +1,4 @@
-(footprint "572-0X00"
+(footprint "572-0500"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "572-0X00"
+	(property "Value" "572-0500"
 		(at 15.08 -0.63 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -113,7 +113,7 @@
 		(uuid "16481769-0dc5-48a1-9a44-4d668a3311e8")
 	)
 	(embedded_fonts no)
-	(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/572-0100_blk.step"
+	(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/572-0500.step"
 		(offset
 			(xyz -2.15 0 13.75)
 		)

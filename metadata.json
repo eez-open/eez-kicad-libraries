@@ -23,12 +23,12 @@
     },
                 "versions": [
                     {
-                        "download_size": 37220352,
-                        "download_url": "https://github.com/eez-open/eez-kicad-libraries/releases/download/v1.0.9/EEZ-Kicad-library.zip",
-                        "install_size": 245432320,
-                        "kicad_version": "9.0",
+                        "download_size": 40566784,
+                        "download_url": "https://github.com/eez-open/eez-kicad-libraries/releases/download/v1.1.1/EEZ-Kicad-libraries.zip",
+                        "install_size": 274616320,
+                        "kicad_version": "9.0.x",
                         "status": "stable",
-                        "version": "1.0.9"
+                        "version": "1.1.1"
                     }                    
                 ]
 }

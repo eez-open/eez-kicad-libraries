@@ -3,7 +3,6 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(tags "MC74HC4052ADTG ")
 	(property "Reference" "REF**"
 		(at -0.56 -3.21 0)
 		(unlocked yes)

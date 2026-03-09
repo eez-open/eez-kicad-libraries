@@ -317,6 +317,32 @@
 				(hide yes)
 			)
 		)
+		(symbol "ECAP_0_1"
+			(polyline
+				(pts
+					(xy 0.635 1.27) (xy 1.905 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.905) (xy 1.27 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "ECAP_1_0"
 			(rectangle
 				(start -1.651 -2.54)
@@ -375,15 +401,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(text "+"
-				(at -0.5842 0.4064 900)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
 				)
 			)
 			(pin passive line

@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Mounting Hole 3.2mm with vias")
+	(descr "Mounting Hole 2mm with vias")
 	(tags "mounting hole")
 	(property "Reference" "REF**"
 		(at 0 -3.4 0)

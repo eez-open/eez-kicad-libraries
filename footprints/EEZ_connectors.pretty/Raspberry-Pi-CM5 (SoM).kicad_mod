@@ -163,28 +163,6 @@
 		(layer "Edge.Cuts")
 		(uuid "d8ce700b-0719-476c-9432-bce66d1228d1")
 	)
-	(fp_rect
-		(start -2.3875 -32.515)
-		(end 1.4675 -10.475)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "F.CrtYd")
-		(uuid "1669b11e-c356-4b3b-9bf6-de53cabda17d")
-	)
-	(fp_rect
-		(start 31.5325 -32.52)
-		(end 35.3875 -10.48)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "F.CrtYd")
-		(uuid "88cfbcad-c7cf-4948-bd0e-15531b701169")
-	)
 	(fp_circle
 		(center 0 -48)
 		(end 3.1 -48)
@@ -294,6 +272,28 @@
 		(fill no)
 		(layer "B.Fab")
 		(uuid "c7914c73-9523-487a-8143-51b2c7986238")
+	)
+	(fp_rect
+		(start -2.3875 -32.515)
+		(end 1.4675 -10.475)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1669b11e-c356-4b3b-9bf6-de53cabda17d")
+	)
+	(fp_rect
+		(start 31.5325 -32.52)
+		(end 35.3875 -10.48)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "88cfbcad-c7cf-4948-bd0e-15531b701169")
 	)
 	(pad "" np_thru_hole circle
 		(at 0 -48)

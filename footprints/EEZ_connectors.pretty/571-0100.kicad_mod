@@ -1,7 +1,7 @@
-(footprint "571-0X00 Deltron"
-	(version 20240108)
+(footprint "571-0100"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "571-0100 ")
 	(property "Reference" "REF**"
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "571-0X00 Deltron"
+	(property "Value" "571-0100"
 		(at 8.3021 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b16827b8-94a6-45b2-9475-dbe940cb2f1e")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -66,26 +54,6 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -4.6646 -4.8768)
-		(end -4.6646 4.8768)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "053a0434-b31b-4145-9452-ad0efa7cc776")
-	)
-	(fp_line
-		(start -4.6646 4.8768)
-		(end -2.277 4.8768)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "f59efd53-ec3d-4d15-8dd2-bb321b5a2d83")
-	)
-	(fp_line
 		(start -2.277 -5.3721)
 		(end -2.277 5.3721)
 		(stroke
@@ -94,16 +62,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "36cea490-4f43-420c-8208-582431503b15")
-	)
-	(fp_line
-		(start -2.277 -4.8768)
-		(end -4.6646 -4.8768)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "d360e290-132f-4e41-80a9-d19bef04818a")
 	)
 	(fp_line
 		(start -2.277 5.3721)
@@ -176,6 +134,26 @@
 		(uuid "aa74884b-3bc5-48ac-b655-c5ca1d8ff872")
 	)
 	(fp_line
+		(start -4.6646 -4.8768)
+		(end -4.6646 4.8768)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "053a0434-b31b-4145-9452-ad0efa7cc776")
+	)
+	(fp_line
+		(start -4.6646 4.8768)
+		(end -2.277 4.8768)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f59efd53-ec3d-4d15-8dd2-bb321b5a2d83")
+	)
+	(fp_line
 		(start -4.5376 -4.7498)
 		(end -4.5376 4.7498)
 		(stroke
@@ -194,6 +172,16 @@
 		)
 		(layer "F.Fab")
 		(uuid "91c1a034-fdf9-4342-9fb8-39b0312f4715")
+	)
+	(fp_line
+		(start -2.277 -4.8768)
+		(end -4.6646 -4.8768)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d360e290-132f-4e41-80a9-d19bef04818a")
 	)
 	(fp_line
 		(start -2.15 -5.2451)
@@ -252,7 +240,7 @@
 			(width 0.0254)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "ab906689-eeee-4f65-86fa-c3587eece90c")
 	)
@@ -284,7 +272,8 @@
 		(remove_unused_layers no)
 		(uuid "005b8778-c312-4a26-9115-540db4f27aab")
 	)
-	(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/deltron-571-0710-4mm-90deg-single-socket-3dfile.STEP"
+	(embedded_fonts no)
+	(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/571-0100.step"
 		(offset
 			(xyz 18.7 4.9 0)
 		)

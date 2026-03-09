@@ -15555,10 +15555,10 @@
 					(type none)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -5.08 -2.54 0)
 				(length 5.08)
-				(name "+12V"
+				(name "PE"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -15627,7 +15627,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -5.08 -12.7 0)
 				(length 5.08)
 				(name "+5V"
@@ -15645,7 +15645,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -5.08 -15.24 0)
 				(length 5.08)
 				(name "+5V"
@@ -15681,13 +15681,13 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -5.08 -20.32 0)
 				(length 5.08)
-				(name "PE"
+				(name "~{SHUTDOWN}"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.889 0.889)
 						)
 					)
 				)
@@ -15717,7 +15717,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -5.08 -25.4 0)
 				(length 5.08)
 				(name "SCL/SMBCLK"
@@ -15771,7 +15771,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -5.08 -35.56 0)
 				(length 5.08)
 				(name "QSPI_CLK"
@@ -15861,7 +15861,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -5.08 -48.26 0)
 				(length 5.08)
 				(name "QSPI_NCS"
@@ -15915,7 +15915,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -5.08 -55.88 0)
 				(length 5.08)
 				(name "SCLK"
@@ -15933,7 +15933,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin passive line
 				(at -5.08 -58.42 0)
 				(length 5.08)
 				(name "MOSI"
@@ -15951,7 +15951,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin passive line
 				(at -5.08 -60.96 0)
 				(length 5.08)
 				(name "MISO"
@@ -15969,7 +15969,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at -5.08 -63.5 0)
 				(length 5.08)
 				(name "~{IRQ}"
@@ -15987,7 +15987,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -5.08 -66.04 0)
 				(length 5.08)
 				(name "~{CSA}"
@@ -16005,7 +16005,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -5.08 -68.58 0)
 				(length 5.08)
 				(name "~{CSB}"
@@ -16257,7 +16257,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 22.86 -20.32 180)
 				(length 5.08)
 				(name "~{RESET}"
@@ -16365,7 +16365,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 22.86 -38.1 180)
 				(length 5.08)
 				(name "AC_FREQ"
@@ -16473,7 +16473,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 22.86 -53.34 180)
 				(length 5.08)
 				(name "BOOT"
@@ -16671,7 +16671,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 22.86 -81.28 180)
 				(length 5.08)
 				(name "GND"
@@ -16689,7 +16689,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 22.86 -83.82 180)
 				(length 5.08)
 				(name "ETH_SYNC"

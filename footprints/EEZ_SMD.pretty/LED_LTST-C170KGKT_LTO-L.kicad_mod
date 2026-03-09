@@ -1,7 +1,7 @@
 (footprint "LED_LTST-C170KGKT_LTO-L"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.254 -1.397 0)
@@ -17,26 +17,15 @@
 		)
 	)
 	(property "Value" "LED_LTST-C170KGKT_LTO"
-		(at 0 0 0)
+		(at 0 0.762 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "164c1307-8d69-47de-8d1e-a01cd017ee03")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b16e2b48-3146-409c-95f7-7566288a2141")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
+				(size 0.6096 0.6096)
+				(thickness 0.1016)
+				(bold yes)
 			)
 		)
 	)
@@ -92,49 +81,20 @@
 			(width 0.0254)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "49014231-8c00-46ac-8f72-41d278bafabf")
 	)
-	(fp_line
-		(start -1.3081 -0.7493)
-		(end 1.3081 -0.7493)
+	(fp_rect
+		(start -1.524 -0.7493)
+		(end 1.524 0.7493)
 		(stroke
-			(width 0.1524)
+			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "490c930f-1b05-477b-bc1c-f567ecdc50e5")
-	)
-	(fp_line
-		(start -1.3081 0.7493)
-		(end -1.3081 -0.7493)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "4b6b7a92-20e7-46c6-b2a8-1eb8e5cee9fb")
-	)
-	(fp_line
-		(start 1.3081 -0.7493)
-		(end 1.3081 0.7493)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "0918f749-46a0-415d-9a54-fd582e3c6843")
-	)
-	(fp_line
-		(start 1.3081 0.7493)
-		(end -1.3081 0.7493)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "22d243e7-d23a-4db8-89d5-b810018dc2e4")
+		(uuid "421a442e-c20d-49c0-a9b2-baa5a9912bd7")
 	)
 	(fp_line
 		(start -1.0541 -0.6731)
@@ -263,7 +223,7 @@
 			(width 0.0254)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "93f03f9c-d7c3-4eb2-92d8-989458c24e86")
 	)
@@ -274,23 +234,25 @@
 		(uuid "322790d3-b7bf-449e-8d51-be128f0a3ce1")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.6096 0.6096)
+				(thickness 0.1016)
+				(bold yes)
 			)
 		)
 	)
 	(pad "A" smd rect
-		(at 0.8255 0)
-		(size 0.762 1.2954)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "de81da7e-e98f-4e8e-a8fd-abb416dce493")
+		(at 0.9525 0)
+		(size 1.016 1.2954)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fc9325c7-7e50-47eb-917a-5d52c615d4e0")
 	)
 	(pad "C" smd rect
-		(at -0.8255 0)
-		(size 0.762 1.2954)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "dc60e2ec-37af-4bb8-8c12-553df6003f5c")
+		(at -0.9525 0)
+		(size 1.016 1.2954)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "816dc186-31b8-4c2c-9bc5-eb9cedee8813")
 	)
+	(embedded_fonts no)
 	(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/LTST-C170KGKT.STEP"
 		(offset
 			(xyz 0 0 0)
