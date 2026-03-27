@@ -1,7 +1,7 @@
 (footprint "JP2 shorted (0603)"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -1.64 -0.71 0)
@@ -21,18 +21,6 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "5ca85f6a-12c2-44d4-9673-59c5c0822bbe")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ddd1dfa7-5267-469e-bcd5-d49e4459bb98")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -85,9 +73,21 @@
 			(width 0)
 			(type default)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Cu")
 		(uuid "a1734a08-ea41-4261-a517-6d4f9be94b9e")
+	)
+	(fp_poly
+		(pts
+			(xy 0.3404 0.2634) (xy -0.32 0.2634) (xy -0.32 -0.27) (xy 0.3404 -0.27)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "a62025f3-c86c-4245-9992-d543e1ff0a30")
 	)
 	(fp_line
 		(start -0.12158 -0.507)
@@ -116,9 +116,21 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "57946946-9ecc-4f70-b7b1-e135a1e9b39f")
+	)
+	(fp_poly
+		(pts
+			(xy 0.3404 0.2634) (xy -0.32 0.2634) (xy -0.32 -0.27) (xy 0.3404 -0.27)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "984bf9ce-7018-4eb6-8a7b-da73be150983")
 	)
 	(fp_rect
 		(start -1.397 -0.635)
@@ -127,22 +139,23 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "6ba131e2-5ac1-470f-ac88-fdb283b73164")
 	)
 	(pad "1" smd roundrect
 		(at -0.769 0)
 		(size 0.9 0.95)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "5bcc1329-ac10-42fb-8b73-ef44ce2f3b19")
 	)
 	(pad "2" smd roundrect
 		(at 0.781 0)
 		(size 0.9 0.95)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "531bc1da-0c60-409c-aacd-09c4eb0449ad")
 	)
+	(embedded_fonts no)
 )

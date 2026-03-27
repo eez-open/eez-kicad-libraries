@@ -23086,7 +23086,7 @@
 			(pin passive line
 				(at -2.54 -116.84 0)
 				(length 2.54)
-				(name "PWR_Button"
+				(name "PWR_Button/~{RESET}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -26805,7 +26805,7 @@
 			(pin passive line
 				(at -2.54 -116.84 0)
 				(length 2.54)
-				(name "PWR_Button"
+				(name "PWR_Button/~{RESET}"
 					(effects
 						(font
 							(size 1.27 1.27)

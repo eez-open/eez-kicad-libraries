@@ -14187,6 +14187,24 @@
 			)
 		)
 		(symbol "SN74HCS02PWR_5_0"
+			(text "VDD"
+				(at 1.27 2.54 900)
+				(effects
+					(font
+						(size 0.889 0.889)
+					)
+					(justify left bottom)
+				)
+			)
+			(text "VSS"
+				(at 1.27 -5.08 900)
+				(effects
+					(font
+						(size 0.889 0.889)
+					)
+					(justify left bottom)
+				)
+			)
 			(pin power_in line
 				(at 0 7.62 270)
 				(length 5.08)
@@ -16254,6 +16272,311 @@
 			(pin passive line
 				(at 7.62 -2.54 180)
 				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SN74LVC1G332DBVR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at -2.54 4.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SN74LVC1G332DBVR"
+			(at -2.54 -5.715 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:DBV0006A_N"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single 3-Input Positive OR Gate"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "296-18587-1-ND"
+			(at 0 -12.7 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "595-SN74LVC1G332DBVR"
+			(at 0 -15.24 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "SN74LVC1G332DBVR"
+			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C43368"
+			(at 0 -20.32 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SN74LVC1G332DBVR_1_0"
+			(pin input line
+				(at -5.08 2.54 0)
+				(length 3.429)
+				(name "A"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "B"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -2.54 0)
+				(length 3.429)
+				(name "C"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 4.699)
+				(name "Y"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SN74LVC1G332DBVR_1_1"
+			(arc
+				(start -2.2862 3.81)
+				(mid -1.0652 0)
+				(end -2.2862 -3.81)
+				(stroke
+					(width 0.4064)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.2862 3.81) (xy 0.8888 3.81)
+				)
+				(stroke
+					(width 0.4064)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.2862 -3.81) (xy 0.8888 -3.81)
+				)
+				(stroke
+					(width 0.4064)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 5.3338 0)
+				(mid 3.7093 -2.584)
+				(end 0.9142 -3.81)
+				(stroke
+					(width 0.4064)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 0.9142 3.81)
+				(mid 3.7166 2.5924)
+				(end 5.3338 0)
+				(stroke
+					(width 0.4064)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.8888 3.81) (xy -2.2862 3.81) (xy -2.2862 3.81) (xy -2.0322 3.4036) (xy -1.4988 2.2606) (xy -1.1686 1.0414)
+					(xy -1.0924 -0.254) (xy -1.2448 -1.4986) (xy -1.6512 -2.7178) (xy -2.2862 -3.81) (xy -2.2862 -3.81)
+					(xy 0.8888 -3.81)
+				)
+				(stroke
+					(width -25.4)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "SN74LVC1G332DBVR_2_0"
+			(text "VDD"
+				(at 1.27 2.54 900)
+				(effects
+					(font
+						(size 0.889 0.889)
+					)
+					(justify left bottom)
+				)
+			)
+			(text "VSS"
+				(at 1.27 -5.08 900)
+				(effects
+					(font
+						(size 0.889 0.889)
+					)
+					(justify left bottom)
+				)
+			)
+			(pin power_in line
+				(at 0 7.62 270)
+				(length 5.08)
+				(name "Vcc"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
