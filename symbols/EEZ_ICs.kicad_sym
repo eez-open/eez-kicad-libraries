@@ -10886,7 +10886,7 @@
 			)
 		)
 		(property "Description" "Low drop fixed positive voltage regulator"
-			(at 0 0 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10904,33 +10904,6 @@
 			)
 		)
 		(symbol "LD1117A_1_0"
-			(text "IN"
-				(at -4.445 -0.635 0)
-				(effects
-					(font
-						(size 1.524 1.2954)
-					)
-					(justify left bottom)
-				)
-			)
-			(text "ADJ"
-				(at -2.032 -4.318 0)
-				(effects
-					(font
-						(size 1.524 1.2954)
-					)
-					(justify left bottom)
-				)
-			)
-			(text "OUT"
-				(at 0.127 -0.635 0)
-				(effects
-					(font
-						(size 1.524 1.2954)
-					)
-					(justify left bottom)
-				)
-			)
 			(pin input line
 				(at -7.62 0 0)
 				(length 2.54)
@@ -10996,6 +10969,33 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(text "IN"
+				(at -4.445 -0.635 0)
+				(effects
+					(font
+						(size 1.143 1.143)
+					)
+					(justify left bottom)
+				)
+			)
+			(text "ADJ"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(text "OUT"
+				(at 4.445 -0.635 0)
+				(effects
+					(font
+						(size 1.143 1.143)
+					)
+					(justify right bottom)
 				)
 			)
 		)

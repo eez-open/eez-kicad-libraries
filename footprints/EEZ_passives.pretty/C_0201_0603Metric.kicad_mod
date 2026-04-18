@@ -1,14 +1,14 @@
 (footprint "C_0201_0603Metric"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 	(tags "capacitor")
 	(property "Reference" "REF**"
 		(at 0 -0.6858 0)
 		(layer "F.SilkS")
-		(uuid "97485850-3468-4dc5-8e3a-da676dcd7d82")
+		(uuid "1c953b36-9dc0-4984-81af-62cc47669cba")
 		(effects
 			(font
 				(size 0.6096 0.6096)
@@ -20,7 +20,7 @@
 	(property "Value" "C_0201_0603Metric"
 		(at 0 0.025 0)
 		(layer "F.Fab")
-		(uuid "19eeeecf-902e-4a38-b630-8ea2d5cba187")
+		(uuid "5431394b-108c-42d2-8406-d327733d1d58")
 		(effects
 			(font
 				(size 0.2 0.2)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fb8144eb-1558-41fe-8b89-48ef5fa4c2df")
+		(uuid "08ff45a1-f082-4c69-a1c2-eda991622724")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cfabbd5a-2f23-493a-aa4a-78e86e2b406f")
+		(uuid "fa704d54-1c29-400c-856c-da3be21af3a1")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.7 -0.35)
 		(end 0.7 -0.35)
@@ -64,7 +65,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f996215e-36d1-46b8-a013-4f9e3a883b5c")
+		(uuid "719c0f95-df99-42f5-baa0-67ed46250d1e")
 	)
 	(fp_line
 		(start -0.7 0.35)
@@ -74,7 +75,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f74f2bb9-eed7-4b9b-967f-47da818eab02")
+		(uuid "23183e48-32cd-4150-bb7c-d921083c1b23")
 	)
 	(fp_line
 		(start 0.7 -0.35)
@@ -84,7 +85,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "3962b635-6104-4381-80cd-40cb8a8d4763")
+		(uuid "bf19635d-c484-4a82-b2f0-de8a0b0777c9")
 	)
 	(fp_line
 		(start 0.7 0.35)
@@ -94,7 +95,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "8caab8de-cb04-4569-b2e2-5f7ff6306e89")
+		(uuid "f5b5342a-102a-4409-b4a3-bab03f7e9d73")
 	)
 	(fp_line
 		(start -0.3 -0.15)
@@ -104,7 +105,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "49cbc45a-ec3d-45b6-9d80-cf1dd7cab70f")
+		(uuid "830dfdc4-3053-4d62-aad4-1772073ea9a4")
 	)
 	(fp_line
 		(start -0.3 0.15)
@@ -114,7 +115,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "bd40bd9d-9c1a-4779-b5a5-ed38034ed2bf")
+		(uuid "bb22d1c0-592e-4253-8f5d-92fbdda5ecbb")
 	)
 	(fp_line
 		(start 0.3 -0.15)
@@ -124,7 +125,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a1f29c15-b55a-44c9-a321-109e0004c1dc")
+		(uuid "2bb6b383-0e60-428f-a109-737d08c073eb")
 	)
 	(fp_line
 		(start 0.3 0.15)
@@ -134,12 +135,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "921969f4-460e-480c-8560-1eb5593088a9")
+		(uuid "9607aec6-3201-4e9f-9992-3b812a39c7c3")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -0.325 0)
 		(layer "F.Fab")
-		(uuid "39f62ec3-9057-43ba-bc50-f70d4a86ea5f")
+		(uuid "f7620495-5a98-4eb2-9c13-ac97c59c54a2")
 		(effects
 			(font
 				(size 0.2 0.2)
@@ -152,31 +153,31 @@
 		(size 0.318 0.36)
 		(layers "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "240bd312-ddef-4744-b3cd-effcee2ffdaa")
+		(uuid "c88d435e-5828-45ed-818c-70887c3534c7")
 	)
 	(pad "" smd roundrect
 		(at 0.345 0)
 		(size 0.318 0.36)
 		(layers "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "d19b8c28-8a11-4fc0-919a-024e80204d58")
+		(uuid "1e61de51-f494-4db4-b81c-985fc1a4c1c9")
 	)
 	(pad "1" smd roundrect
 		(at -0.32 0)
 		(size 0.46 0.4)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.25)
-		(uuid "8bf01d0b-6b5e-4e72-9f28-eaa9cb1ccc1a")
+		(uuid "5a6db3f6-cdc5-49ec-ba02-f8e8923ae431")
 	)
 	(pad "2" smd roundrect
 		(at 0.32 0)
 		(size 0.46 0.4)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.25)
-		(uuid "89e4f5f2-bb4b-4d49-ad80-aa7015c371ca")
+		(uuid "62741b59-a632-4d51-9ff1-353f7996def7")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/C_0201_0603Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)
