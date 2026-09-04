@@ -1,7 +1,7 @@
 (footprint "3622"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Fuse holder")
 	(tags "0031.8221 ")
@@ -9,7 +9,7 @@
 		(at -9.5 -4.1 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "a1a525ce-1a1b-4b4d-8a0c-6df95ff93a42")
+		(uuid "198613d5-9fe1-4320-bae0-2f0c1baf4b22")
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -18,10 +18,10 @@
 		)
 	)
 	(property "Value" "3622"
-		(at 0 0 0)
+		(at 0 1.27 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "35f15b56-cba7-47ca-80c0-d28a9677ee5c")
+		(uuid "dd8590aa-0d41-4ba4-891c-3ea36ebbef1d")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8d2ccb57-1065-49ec-b195-f960a9389bba")
+		(uuid "f6d519d3-8b69-474d-9fc1-8f5040576426")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "106c8fbd-12ec-4de3-82ae-efb022603b87")
+		(uuid "6dc13910-e2b1-44b6-8304-1a4ec52e060a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -11.85 -3.4)
 		(end 11.85 3.4)
@@ -63,7 +64,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "5b6305f1-506a-44fa-b4b9-873217944292")
+		(uuid "14d0d4ba-6246-4750-b03d-ffdcf23e47b0")
 	)
 	(fp_rect
 		(start -11.9 -3.4)
@@ -74,7 +75,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "b4f89e31-06a1-4692-a739-ccc1f7fe81a9")
+		(uuid "35651c11-17f6-4a7f-8551-f2d1d526dec4")
 	)
 	(fp_circle
 		(center -8.500001 -1.905)
@@ -85,13 +86,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "b1dc1df5-e951-408a-9f5b-5c2bfc6d1e51")
+		(uuid "9e4b837d-5cc5-4d10-9e31-8d25b60d3c4b")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "9f0bfb80-d6d1-4a96-ba43-9013a6d4decd")
+		(uuid "992c60a6-e32f-42a8-a886-7553064e65cb")
 		(effects
 			(font
 				(size 1 1)
@@ -104,19 +105,19 @@
 		(size 6 6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
-		(uuid "a2f9f78f-7a29-477e-acad-ecdc564894d7")
+		(uuid "f0ce63e2-28bc-4404-b230-177c832ebf7a")
 	)
 	(pad "2" smd roundrect
 		(at 8.5 0)
 		(size 6 6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
-		(uuid "5889c90c-af52-4d52-8109-2866e0da0fed")
+		(uuid "9cf60843-48bc-41d1-9ed3-4be4750054a0")
 	)
 	(embedded_fonts no)
 	(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/FUSE_3622.stp"
 		(offset
-			(xyz -8.5 0 0)
+			(xyz -8.95 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -127,7 +128,7 @@
 	)
 	(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/FUSE_3622.stp"
 		(offset
-			(xyz 8.5 0 0)
+			(xyz 8.95 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
