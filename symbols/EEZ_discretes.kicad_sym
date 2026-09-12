@@ -4236,25 +4236,25 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "D"
-			(at -2.286 1.905 0)
+			(at 0 1.905 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
-			(at -2.286 -3.429 0)
+		(property "Value" "???"
+			(at 0.635 -1.905 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 			)
 		)
 		(property "Footprint" ""
@@ -4284,16 +4284,6 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4801,25 +4791,25 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "ZD"
-			(at -1.778 1.905 0)
+			(at 1.905 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify bottom)
 			)
 		)
-		(property "Value" ""
-			(at -1.778 -3.429 0)
+		(property "Value" "???"
+			(at 1.27 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 			)
 		)
 		(property "Footprint" ""
@@ -4849,16 +4839,6 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4916,7 +4896,7 @@
 			)
 			(pin passive line
 				(at -2.54 0 0)
-				(length 2.54)
+				(length 1.27)
 				(name "A"
 					(effects
 						(font
@@ -4934,7 +4914,7 @@
 			)
 			(pin passive line
 				(at 5.08 0 180)
-				(length 2.54)
+				(length 1.27)
 				(name "C"
 					(effects
 						(font
