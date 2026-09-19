@@ -1,0 +1,197 @@
+(footprint "WR-WST_490107670612"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "REDFIT IDC SKEDD, body 15.21x5.6x10.45mm, https://www.we-online.com/en/components/products/datasheet/490107670612?ki")
+	(tags "THT Vertical")
+	(property "Reference" "REF**"
+		(at -8.960665 -2.329816 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "29628ee7-1fe2-4530-bd4a-8945d3c304b8")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Value" "WR-WST_490107670612"
+		(at -3.175 5.57 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec41c3e8-225f-45fb-b42a-21aaea742f79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ecdc9ca1-9675-4b8e-b302-2717297096f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62b64ff8-12c9-4c1d-9403-9f5a83d27d98")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -9.23 -1.63)
+		(end 3.07 4.17)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b45bec05-fe9c-419f-af69-e76239ccecdd")
+	)
+	(fp_rect
+		(start -9.62 -2.03)
+		(end 3.47 4.57)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fb3c777b-6a08-4a41-a899-86912db519df")
+	)
+	(fp_line
+		(start -0.7 -1.53)
+		(end 0 -0.53)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d02c5a17-962a-4dc2-a0cd-6657fdef2621")
+	)
+	(fp_line
+		(start 0.7 -1.53)
+		(end 0 -0.53)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c129de2d-1fe0-4587-9314-00c8cfa59158")
+	)
+	(fp_rect
+		(start -9.12 -1.53)
+		(end 2.96 4.07)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7a26bcda-7ec9-4d84-9625-794ac96ceb74")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -3.175 1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f9b0f1fe-b6a6-44e8-b5c3-a99a7e8ece4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -7.68 0)
+		(size 2.1 2.1)
+		(drill 2.1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "9fb38735-e1a8-4d89-8afb-31a2abd75c28")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.33 2.54)
+		(size 2.5 2.5)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "fc366a02-d9c4-43b9-bb00-ce0ae018c6e7")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.75 1.75)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1428571429)
+		(uuid "aa3c92ec-c052-415e-bbfc-26706e66fa05")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 2.54)
+		(size 1.75 1.75)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7de4822f-20bc-451a-b586-2ceae2663175")
+	)
+	(pad "3" thru_hole circle
+		(at -2.54 0)
+		(size 1.75 1.75)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4cc9e261-6775-4d04-b55b-71c14c3ef24c")
+	)
+	(pad "4" thru_hole circle
+		(at -3.81 2.54)
+		(size 1.75 1.75)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fc19b609-9ce1-41c0-b3fa-0d3d304326e1")
+	)
+	(pad "5" thru_hole circle
+		(at -5.08 0)
+		(size 1.75 1.75)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "197409e7-8ebd-49b2-b3a3-cf732253b9d6")
+	)
+	(pad "6" thru_hole circle
+		(at -6.35 2.54)
+		(size 1.75 1.75)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "75703bf5-5e22-42e7-a4c3-ad91d5dd7a9e")
+	)
+	(embedded_fonts no)
+	(model "${WE_3DMODEL_DIR}/Connector_THT_Wurth.3dshapes/J_Wurth_WR-WST_490107670612.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
