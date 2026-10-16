@@ -1,7 +1,7 @@
 (footprint "Mounting_hole 1.8_4.4mm_via_NO_NET"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Mounting Hole 1.8mm with vias")
 	(tags "mounting hole")
@@ -9,7 +9,7 @@
 		(at 0 -3.4 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "3f7ae5ad-d8d7-4aa2-a7b3-210401530cf5")
+		(uuid "7ed95275-524a-406a-afdd-35d387126ed4")
 		(effects
 			(font
 				(size 0.8128 0.8128)
@@ -22,7 +22,7 @@
 		(at 4.42 -1.79 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "edc9b00e-c57c-413f-9719-f084b9cf9c81")
+		(uuid "5af923ad-af81-4595-99ed-bcde03c998f4")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6ec3b28f-4878-4a0f-9676-ef37093329bf")
+		(uuid "3787a6f4-0c4a-4666-8596-ed50f5527a64")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8db04ba3-f48e-4e82-84be-822a11507da4")
+		(uuid "6e111762-97ef-48c2-a7c1-d07469e98abb")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr through_hole exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 0)
 		(end 2.2 0)
@@ -64,7 +65,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "6b6ebd82-2d17-4bf3-9418-dfa1e7831835")
+		(uuid "04d4bc23-bcc8-45c7-a281-c1dd281c6231")
 	)
 	(fp_circle
 		(center 0 0)
@@ -75,7 +76,7 @@
 		)
 		(fill no)
 		(layer "B.Fab")
-		(uuid "cd83755a-1893-4d9e-b881-d46ecb4ef365")
+		(uuid "8fe27426-4d6f-436b-9a40-6006df8e7d96")
 	)
 	(fp_circle
 		(center 0 0)
@@ -86,12 +87,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "b83ba233-8db4-4488-a982-89db26aea3e8")
+		(uuid "29476ceb-f600-4de5-a3ab-42bc1b644323")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "B.Fab")
-		(uuid "94625db3-1420-4000-a14b-5073d43c4676")
+		(uuid "753c2e7e-c70a-4e14-b029-03917ed31e88")
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -102,34 +103,34 @@
 	(pad "" thru_hole circle
 		(at -1.8 0)
 		(size 0.8 0.8)
-		(drill 0.5)
+		(drill 0.6)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
-		(uuid "58e28fcd-4e67-4491-963d-9805e966f130")
+		(uuid "c29d9e21-8b73-4494-9750-9d1426360a35")
 	)
 	(pad "" thru_hole circle
 		(at -1.27 -1.27)
 		(size 0.8 0.8)
-		(drill 0.5)
+		(drill 0.6)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
-		(uuid "b3ae67d7-5857-4ef7-8b2c-2bbd47a3821e")
+		(uuid "c7334be7-0766-481d-9c2d-ac4071fdc8e5")
 	)
 	(pad "" thru_hole circle
 		(at -1.27 1.27)
 		(size 0.8 0.8)
-		(drill 0.5)
+		(drill 0.6)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
-		(uuid "f92377d9-b4e8-4ffd-b704-a639bdbe2c10")
+		(uuid "49f40c3f-488e-48c8-989b-2b9d9e5278ab")
 	)
 	(pad "" thru_hole circle
 		(at 0 -1.8)
 		(size 0.8 0.8)
-		(drill 0.5)
+		(drill 0.6)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
-		(uuid "442674c4-afca-46f8-9ff5-6d514fefb6b6")
+		(uuid "9c5f8f0a-f89c-4b17-956e-7c7a35027eb9")
 	)
 	(pad "" thru_hole circle
 		(at 0 0)
@@ -137,39 +138,39 @@
 		(drill 1.8)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
-		(uuid "beeb5b6d-4936-46c9-8e42-1f9f13c34176")
+		(uuid "69bc5c79-7f11-4d01-813a-cfbb7fc5981d")
 	)
 	(pad "" thru_hole circle
 		(at 0 1.8)
 		(size 0.8 0.8)
-		(drill 0.5)
+		(drill 0.6)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
-		(uuid "86b8d944-f1dd-413b-a32d-e169c909da8e")
+		(uuid "e830b096-fd14-4547-b937-a67b2b249cb8")
 	)
 	(pad "" thru_hole circle
 		(at 1.27 -1.27)
 		(size 0.8 0.8)
-		(drill 0.5)
+		(drill 0.6)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
-		(uuid "1364f24f-0dc5-4bd8-875f-3f78aaa06b5c")
+		(uuid "749e1900-615d-457e-bbaa-6237c8ca5a84")
 	)
 	(pad "" thru_hole circle
 		(at 1.27 1.27)
 		(size 0.8 0.8)
-		(drill 0.5)
+		(drill 0.6)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
-		(uuid "cb0ba49d-e114-4e88-9e42-a7b105e204f0")
+		(uuid "83c39805-9376-4881-87a5-e0ea21fc3947")
 	)
 	(pad "" thru_hole circle
 		(at 1.8 0)
 		(size 0.8 0.8)
-		(drill 0.5)
+		(drill 0.6)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
-		(uuid "79b50696-3a08-4404-b532-eae78c164c9b")
+		(uuid "3147a540-8193-4789-8483-3d1d08b5fe69")
 	)
 	(embedded_fonts no)
 )

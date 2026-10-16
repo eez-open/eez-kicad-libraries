@@ -1,0 +1,211 @@
+(footprint "75867-131LF"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5.44 -5.49 0)
+		(layer "F.SilkS")
+		(uuid "44937374-2110-496a-a031-b4e93e603fc4")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Value" "75867-131LF"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "eb7722d1-5244-4ca8-874d-842a548a614f")
+		(effects
+			(font
+				(size 0.6096 0.6096)
+				(thickness 0.1016)
+				(bold yes)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3479852-0b27-4e44-a8e1-48c76de23246")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d62764d2-a6ca-4f7a-9a46-f1430e9f6ffe")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -7.415 -4.785)
+		(end 7.415 -4.785)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5fd42fed-236c-490b-bca8-5730427f5fa9")
+	)
+	(fp_line
+		(start -7.415 4.785)
+		(end -7.415 -4.785)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cf88b7f0-755c-4c4d-99e3-243d281cdd82")
+	)
+	(fp_line
+		(start 7.415 -4.785)
+		(end 7.415 4.785)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6da57ba8-29ce-415c-bb80-5bf8e324abb1")
+	)
+	(fp_line
+		(start 7.415 4.785)
+		(end -7.415 4.785)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a4acf7ea-9d10-4e80-aa03-a8824aa546ed")
+	)
+	(fp_poly
+		(pts
+			(xy -7.6 5) (xy 7.6 5) (xy 7.6 -5) (xy 3.6 -5) (xy 3.6 -10.2) (xy -3.6 -10.2) (xy -3.6 -5) (xy -7.6 -5)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2ef3c548-cd12-4c94-898d-21b0b1f13e2d")
+	)
+	(fp_line
+		(start -7.415 -4.785)
+		(end 7.415 -4.785)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c7cad303-1f96-4617-adc2-cb62acb3b4b1")
+	)
+	(fp_line
+		(start -7.415 4.785)
+		(end -7.415 -4.785)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "40ea26ed-f043-4364-9a46-55f674596b1e")
+	)
+	(fp_line
+		(start 7.415 -4.785)
+		(end 7.415 4.785)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f59dcc82-eff6-45f1-aac0-49cc13f01c36")
+	)
+	(fp_line
+		(start 7.415 4.785)
+		(end -7.415 4.785)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "788e11ea-ce78-4ae5-8288-16c6c2d75c65")
+	)
+	(pad "1" thru_hole rect
+		(at 2.54 -9.125)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "f140ee7e-6401-4cb6-a065-da78674c9cfb")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 -6.585)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "6218b3f1-ddb6-44c8-8259-30416f86526d")
+	)
+	(pad "3" thru_hole circle
+		(at 0 -9.125)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "ddf4eceb-c38c-4954-babd-2254493df04b")
+	)
+	(pad "4" thru_hole circle
+		(at 0 -6.585)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "d9aa9345-3636-4a5a-9f6d-938cde707fbc")
+	)
+	(pad "5" thru_hole circle
+		(at -2.54 -9.125)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "2abc8efc-53e8-4420-be71-ed7bc2ac0d85")
+	)
+	(pad "6" thru_hole circle
+		(at -2.54 -6.585)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "bbc168c7-c2f9-491d-803a-1c792d30e940")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/75867-131LF.step"
+		(offset
+			(xyz 0 7.874 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

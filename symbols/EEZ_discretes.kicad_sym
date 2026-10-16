@@ -4004,23 +4004,23 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "D"
-			(at 1.905 0.635 0)
+			(at 1.905 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
-			(at 5.715 -2.032 90)
+		(property "Value" "LTST-C170KGKT"
+			(at 1.905 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 0.889 0.889)
 				)
 				(justify left bottom)
 			)
@@ -4433,15 +4433,15 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
-			(at -1.778 -3.429 0)
+		(property "Value" "SLVU2.8.TCT"
+			(at -1.27 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "PCM_EEZ_SMD:SOT23-3"
@@ -4966,23 +4966,23 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "ZD"
-			(at -1.778 1.905 0)
+			(at -0.635 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
-			(at -1.778 -3.429 0)
+		(property "Value" "???"
+			(at -0.635 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
@@ -5014,16 +5014,6 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5144,18 +5134,18 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "???"
 			(at -1.778 -3.429 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
@@ -5187,16 +5177,6 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6025,6 +6005,371 @@
 							(size 0.889 0.889)
 						)
 					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "HSMF-A201-A00J1"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "LED"
+			(at 1.905 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "HSMF-A201-A00J1"
+			(at 1.905 -0.635 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:HSMF-A201"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Surface Mount LED Indicator, PLCC-4 SMT LED Bi-Color (Red/Green)"
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "516-2491-1-ND"
+			(at 0 -10.16 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "630-HSMF-A201-A00J1"
+			(at 0 -12.7 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "HSMF-A201-A00J1"
+			(at 0 -15.24 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6795866"
+			(at 0 -17.78 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "LED"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "HSMF-A201-A00J1_1_0"
+			(polyline
+				(pts
+					(xy -2.0322 1.7778) (xy -3.4292 0.3808)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+					(color 194 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.9052 0.6348) (xy -3.3022 -0.7622)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+					(color 194 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.2698 -0.0002) (xy -1.2702 -0.0002)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+					(color 194 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.54)
+				(name "C1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "A1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "HSMF-A201-A00J1_1_1"
+			(polyline
+				(pts
+					(xy -3.4292 0.3808) (xy -3.0482 1.2698) (xy -2.5402 0.7618) (xy -3.4292 0.3808)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 194 0 0 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.3022 -0.7622) (xy -2.9212 0.1268) (xy -2.4132 -0.3812) (xy -3.3022 -0.7622)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 194 0 0 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.2702 2.5398) (xy 1.2698 2.5398) (xy -0.0002 -0.0002) (xy -1.2702 2.5398)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 194 0 0 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "HSMF-A201-A00J1_2_0"
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.54)
+				(name "C2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "A2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "HSMF-A201-A00J1_2_1"
+			(polyline
+				(pts
+					(xy -3.4274 0.3856) (xy -3.0464 1.2746) (xy -2.5384 0.7666) (xy -3.4274 0.3856)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 194 0 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.3004 -0.7574) (xy -2.9194 0.1316) (xy -2.4114 -0.3764) (xy -3.3004 -0.7574)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 194 0 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.0304 1.7826) (xy -3.4274 0.3856)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+					(color 0 194 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.9034 0.6396) (xy -3.3004 -0.7574)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+					(color 0 194 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.2684 2.5446) (xy 1.2716 2.5446) (xy 0.0016 0.0046) (xy -1.2684 2.5446)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 194 0 1)
+				)
+				(fill
+					(type color)
+					(color 0 194 0 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.2716 0.0046) (xy -1.2684 0.0046)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+					(color 0 194 0 1)
+				)
+				(fill
+					(type none)
 				)
 			)
 		)
@@ -9339,18 +9684,18 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
-			(at -10.16 5.08 0)
+		(property "Value" "???"
+			(at 2.54 -1.905 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
@@ -9382,16 +9727,6 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9599,18 +9934,18 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
-			(at -10.16 5.08 0)
+		(property "Value" "???"
+			(at 2.54 -1.905 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
@@ -9642,16 +9977,6 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9859,7 +10184,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
@@ -9870,7 +10195,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 0.889 0.889)
 				)
 				(justify left bottom)
 			)
