@@ -15128,6 +15128,614 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "OPA4990IPWR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "IC"
+			(at 0 3.175 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "OPA4990IPWR"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:PW14"
+			(at 0 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "40-V Rail-to-Rail Input/Output, Low Offset Voltage, Low Power Op Amp"
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "296-OPA4990IPWRCT-ND"
+			(at 0 -12.7 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "595-OPA4990IPWR"
+			(at 0 -15.24 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "OPA4990IPWR"
+			(at 0 -17.78 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2862600"
+			(at 0 -20.32 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "RRIO op-amp"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "OPA4990IPWR_1_0"
+			(polyline
+				(pts
+					(xy -4.445 2.54) (xy -3.175 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 -2.54) (xy -3.175 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 3.175) (xy -3.81 1.905)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin output line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "-IN"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "+IN"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "OPA4990IPWR_1_1"
+			(polyline
+				(pts
+					(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+				)
+				(stroke
+					(width 0.4064)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "OPA4990IPWR_2_0"
+			(polyline
+				(pts
+					(xy -4.445 2.54) (xy -3.175 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 -2.54) (xy -3.175 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 3.175) (xy -3.81 1.905)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "+IN"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "-IN"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "OPA4990IPWR_2_1"
+			(polyline
+				(pts
+					(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+				)
+				(stroke
+					(width 0.4064)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "OPA4990IPWR_3_0"
+			(polyline
+				(pts
+					(xy -4.445 2.54) (xy -3.175 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 -2.54) (xy -3.175 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 3.175) (xy -3.81 1.905)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin output line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "-IN"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "+IN"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "OPA4990IPWR_3_1"
+			(polyline
+				(pts
+					(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+				)
+				(stroke
+					(width 0.4064)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "OPA4990IPWR_4_0"
+			(polyline
+				(pts
+					(xy -4.445 2.54) (xy -3.175 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 -2.54) (xy -3.175 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 3.175) (xy -3.81 1.905)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "+IN"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "-IN"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "OPA4990IPWR_4_1"
+			(polyline
+				(pts
+					(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+				)
+				(stroke
+					(width 0.4064)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "OPA4990IPWR_5_0"
+			(text "V+"
+				(at 1.27 2.54 900)
+				(effects
+					(font
+						(size 0.8128 0.6908)
+					)
+					(justify left bottom)
+				)
+			)
+			(text "V-"
+				(at 1.27 -5.08 900)
+				(effects
+					(font
+						(size 0.8128 0.6908)
+					)
+					(justify left bottom)
+				)
+			)
+			(pin power_in line
+				(at 0 7.62 270)
+				(length 5.08)
+				(name "V+"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 5.08)
+				(name "V-"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "PCA9306DCTR"
 		(pin_names
 			(offset 1.016)
@@ -26322,24 +26930,23 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "IC"
-			(at 2.54 5.08 0)
+			(at -0.635 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
-			(at 2.54 -5.08 0)
+		(property "Value" "TL072D"
+			(at -0.635 -5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
@@ -28433,6 +29040,426 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TMUX4051PWR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "IC"
+			(at 2.54 3.175 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TMUX4051PWR"
+			(at 2.54 -33.655 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:PW16"
+			(at 0 -35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "24V, 8:1, 1-Channel Multiplexer"
+			(at 2.54 -38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "296-TMUX4051PWRCT-ND"
+			(at 0 -40.64 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "595-TMUX4051PWR"
+			(at 0 -43.18 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "TMUX4051PWR"
+			(at 0 -45.72 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5449352"
+			(at 0 -48.26 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TMUX4051PWR_1_1"
+			(rectangle
+				(start 2.54 2.54)
+				(end 17.78 -33.02)
+				(stroke
+					(width 0.4064)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 17.78 -20.32) (xy 2.54 -20.32)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 20.32 -10.16 180)
+				(length 2.54)
+				(name "S4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 -15.24 180)
+				(length 2.54)
+				(name "S6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 -17.78 180)
+				(length 2.54)
+				(name "S7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 -12.7 180)
+				(length 2.54)
+				(name "S5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -30.48 0)
+				(length 2.54)
+				(name "~{EN}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 20.32 -27.94 180)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 20.32 -30.48 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -27.94 0)
+				(length 2.54)
+				(name "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -25.4 0)
+				(length 2.54)
+				(name "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.86 0)
+				(length 2.54)
+				(name "A0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 -7.62 180)
+				(length 2.54)
+				(name "S3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 0 180)
+				(length 2.54)
+				(name "S0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 -2.54 180)
+				(length 2.54)
+				(name "S1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 -5.08 180)
+				(length 2.54)
+				(name "S2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 20.32 -25.4 180)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -37752,36 +38779,36 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "ULN2803ADWR"
+	(symbol "ULN2003D"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "IC"
-			(at -10.16 15.875 0)
+			(at 2.54 3.175 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.6764 1.4249)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Value" "ULN2803ADWR"
-			(at -10.16 -17.78 0)
+		(property "Value" "ULN2003D"
+			(at 2.54 -27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.6764 1.4249)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_SMD:DW18_TEX-M"
-			(at 0 0 0)
+		(property "Footprint" "PCM_EEZ_SMD:SO16"
+			(at 0 -30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -37802,8 +38829,8 @@
 				)
 			)
 		)
-		(property "Description" "Darlington Transistor Array"
-			(at 0 0 0)
+		(property "Description" "7 Darlington Transistor Array"
+			(at 0 -33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -37813,8 +38840,8 @@
 				)
 			)
 		)
-		(property "DigiKey" "296-15777-1-ND"
-			(at 0 -20.32 0)
+		(property "DigiKey" "497-2345-1-ND"
+			(at 0 -35.56 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -37824,8 +38851,8 @@
 				)
 			)
 		)
-		(property "Mouser" "595-ULN2803ADWR"
-			(at 0 -22.86 0)
+		(property "Mouser" "511-ULN2003D1013TR"
+			(at 0 -38.1 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -37835,8 +38862,8 @@
 				)
 			)
 		)
-		(property "TME" "ULN2803ADWR"
-			(at 0 -25.4 0)
+		(property "TME" "ULN2003D1013TR"
+			(at 0 -40.64 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -37846,11 +38873,22 @@
 				)
 			)
 		)
-		(symbol "ULN2803ADWR_1_0"
+		(property "LCSC" "C61273"
+			(at 0 -43.18 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "ULN2003D_1_0"
 			(pin input line
-				(at -12.7 10.16 0)
+				(at 0 0 0)
 				(length 2.54)
-				(name "1B"
+				(name "IN1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -37866,9 +38904,9 @@
 				)
 			)
 			(pin input line
-				(at -12.7 7.62 0)
+				(at 0 -2.54 0)
 				(length 2.54)
-				(name "2B"
+				(name "IN2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -37884,9 +38922,9 @@
 				)
 			)
 			(pin input line
-				(at -12.7 5.08 0)
+				(at 0 -5.08 0)
 				(length 2.54)
-				(name "3B"
+				(name "IN3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -37902,9 +38940,9 @@
 				)
 			)
 			(pin input line
-				(at -12.7 2.54 0)
+				(at 0 -7.62 0)
 				(length 2.54)
-				(name "4B"
+				(name "IN4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -37920,9 +38958,9 @@
 				)
 			)
 			(pin input line
-				(at -12.7 0 0)
+				(at 0 -10.16 0)
 				(length 2.54)
-				(name "5B"
+				(name "IN5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -37938,9 +38976,9 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -2.54 0)
+				(at 0 -12.7 0)
 				(length 2.54)
-				(name "6B"
+				(name "IN6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -37956,9 +38994,9 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -5.08 0)
+				(at 0 -15.24 0)
 				(length 2.54)
-				(name "7B"
+				(name "IN7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -37973,10 +39011,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -12.7 -7.62 0)
+			(pin passive line
+				(at 0 -22.86 0)
 				(length 2.54)
-				(name "8B"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -37992,9 +39030,9 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -10.16 0)
+				(at 22.86 -22.86 180)
 				(length 2.54)
-				(name "GND"
+				(name "COM"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -38009,10 +39047,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12.7 -10.16 180)
+			(pin output line
+				(at 22.86 -15.24 180)
 				(length 2.54)
-				(name "COM"
+				(name "OUT7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -38028,9 +39066,9 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -7.62 180)
+				(at 22.86 -12.7 180)
 				(length 2.54)
-				(name "8C"
+				(name "OUT6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -38046,9 +39084,9 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -5.08 180)
+				(at 22.86 -10.16 180)
 				(length 2.54)
-				(name "7C"
+				(name "OUT5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -38064,9 +39102,9 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -2.54 180)
+				(at 22.86 -7.62 180)
 				(length 2.54)
-				(name "6C"
+				(name "OUT4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -38082,9 +39120,9 @@
 				)
 			)
 			(pin output line
-				(at 12.7 0 180)
+				(at 22.86 -5.08 180)
 				(length 2.54)
-				(name "5C"
+				(name "OUT3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -38100,9 +39138,9 @@
 				)
 			)
 			(pin output line
-				(at 12.7 2.54 180)
+				(at 22.86 -2.54 180)
 				(length 2.54)
-				(name "4C"
+				(name "OUT2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -38118,9 +39156,9 @@
 				)
 			)
 			(pin output line
-				(at 12.7 5.08 180)
+				(at 22.86 0 180)
 				(length 2.54)
-				(name "3C"
+				(name "OUT1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -38135,47 +39173,11 @@
 					)
 				)
 			)
-			(pin output line
-				(at 12.7 7.62 180)
-				(length 2.54)
-				(name "2C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 12.7 10.16 180)
-				(length 2.54)
-				(name "1C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
-		(symbol "ULN2803ADWR_1_1"
+		(symbol "ULN2003D_1_1"
 			(rectangle
-				(start -10.16 15.24)
-				(end 10.16 -15.24)
+				(start 2.54 2.54)
+				(end 20.32 -25.4)
 				(stroke
 					(width 0.4064)
 					(type default)

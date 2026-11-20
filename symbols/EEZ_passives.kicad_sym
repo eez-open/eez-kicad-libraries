@@ -768,7 +768,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "ECS-TXO-32CSMV-100-AN-TR"
+	(symbol "ECS-TXO-3225MV-100-TR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -785,7 +785,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "ECS-TXO-32CSMV-100-AN-TR"
+		(property "Value" "ECS-TXO-3225MV-100-TR"
 			(at -7.62 -6.985 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -818,7 +818,7 @@
 				)
 			)
 		)
-		(property "Description" "Clipped Sine Wave TCXO"
+		(property "Description" "MultiVolt™ HCMOS TCXO"
 			(at 0 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -829,7 +829,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "50-ECS-TXO-32CSMV-100-AN-TRCT-ND"
+		(property "DigiKey" "50-ECS-TXO-3225MV-100-CT-ND"
 			(at 0 -12.7 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -840,7 +840,7 @@
 				)
 			)
 		)
-		(property "Mouser" "520-TXO32CSMV100ANTR"
+		(property "Mouser" "520-TXO-3225MV-100-T"
 			(at 0 -15.24 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -862,7 +862,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5633358"
+		(property "LCSC" "C2442721"
 			(at 0 -20.32 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -873,7 +873,7 @@
 				)
 			)
 		)
-		(symbol "ECS-TXO-32CSMV-100-AN-TR_1_0"
+		(symbol "ECS-TXO-3225MV-100-TR_1_0"
 			(polyline
 				(pts
 					(xy -3.81 0) (xy -1.905 0)
@@ -970,10 +970,10 @@
 					(type none)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at -10.16 -2.54 0)
 				(length 2.54)
-				(name "GND"
+				(name "EN"
 					(effects
 						(font
 							(size 1.143 1.143)
@@ -1043,7 +1043,7 @@
 				)
 			)
 		)
-		(symbol "ECS-TXO-32CSMV-100-AN-TR_1_1"
+		(symbol "ECS-TXO-3225MV-100-TR_1_1"
 			(rectangle
 				(start -7.62 5.08)
 				(end 7.62 -5.08)

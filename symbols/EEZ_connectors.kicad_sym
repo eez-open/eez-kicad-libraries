@@ -17719,7 +17719,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 22.86 -43.18 180)
 				(length 5.08)
 				(name "REFCLK-"
@@ -17737,7 +17737,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 22.86 -45.72 180)
 				(length 5.08)
 				(name "REFCLK+"
@@ -17827,7 +17827,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 22.86 -58.42 180)
 				(length 5.08)
 				(name "PCIe_CLK-"
@@ -17845,7 +17845,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 22.86 -60.96 180)
 				(length 5.08)
 				(name "PCIe_CLK+"
@@ -30314,7 +30314,7 @@
 			(pin passive line
 				(at 48.26 -124.46 180)
 				(length 2.54)
-				(name "CAM_GPIO0"
+				(name "CAM_GPIO0_GPIO34"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -30368,7 +30368,7 @@
 			(pin passive line
 				(at -2.54 -127 0)
 				(length 2.54)
-				(name "CAM_GPIO1"
+				(name "CAM_GPIO1_GPIO35"
 					(effects
 						(font
 							(size 1.27 1.27)

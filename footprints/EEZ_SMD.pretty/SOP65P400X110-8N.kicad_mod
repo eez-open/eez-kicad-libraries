@@ -1,0 +1,237 @@
+(footprint "SOP65P400X110-8N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.0574 0)
+		(layer "F.SilkS")
+		(uuid "e2de6598-2a26-4388-bad1-3c64f1e3d904")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.1524)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "SOP65P400X110-8N"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "555aa021-af52-4594-acb5-1dc4cd5d3602")
+		(effects
+			(font
+				(size 0.6096 0.6096)
+				(thickness 0.1016)
+				(bold yes)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50f5a88b-6fd3-4c38-9b13-d8249a3928f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bf1060d-e868-48e1-b956-03d8e3501182")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.845 -1.5)
+		(end 0.845 -1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1631f74c-82bf-4c47-986a-e1c613f6213e")
+	)
+	(fp_line
+		(start -0.845 1.5)
+		(end 0.845 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bab86b4f-11e6-40ca-9903-1b575e1c9b72")
+	)
+	(fp_circle
+		(center -1.79 -1.5494)
+		(end -1.6884 -1.397)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "984ba4b0-da1f-4b84-b414-b5fd2ab9f495")
+	)
+	(fp_line
+		(start -2.665 -1.75)
+		(end -2.665 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e0442acc-efdf-4562-8cd5-3418a4b70dfc")
+	)
+	(fp_line
+		(start -2.665 1.75)
+		(end 2.665 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6981c5e3-d2a1-4968-810c-5d02e1d33e0f")
+	)
+	(fp_line
+		(start 2.665 -1.75)
+		(end -2.665 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "36f0ef3d-4da1-4121-a16d-1dacaea4ff72")
+	)
+	(fp_line
+		(start 2.665 1.75)
+		(end 2.665 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a6adebca-8f12-41a7-a5a3-57da98846a57")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f52e40b1-35fa-4549-bff8-6565b315f4fb")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "02f2531b-fe9b-4b44-b25d-9c3e6853c4d4")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7e0123ea-5789-4702-8430-c97faee04398")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d55080ba-ad1c-401d-b1c3-f4a5e20a891c")
+	)
+	(pad "1" smd roundrect
+		(at -1.79 -0.975)
+		(size 1.25 0.48)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0)
+		(uuid "b62d44db-3b56-4082-b7dc-723595961c7e")
+	)
+	(pad "2" smd roundrect
+		(at -1.79 -0.325)
+		(size 1.25 0.48)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0)
+		(uuid "d9df2452-db66-45f0-b396-6a9bc22b9ecc")
+	)
+	(pad "3" smd roundrect
+		(at -1.79 0.325)
+		(size 1.25 0.48)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0)
+		(uuid "e8119a94-d181-44cf-a9be-4797dc892020")
+	)
+	(pad "4" smd roundrect
+		(at -1.79 0.975)
+		(size 1.25 0.48)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0)
+		(uuid "a5c3abc8-9885-4a97-96b0-28ed7aa78f62")
+	)
+	(pad "5" smd roundrect
+		(at 1.79 0.975)
+		(size 1.25 0.48)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "89b77c36-88bb-448d-b589-2a33c23ee9df")
+	)
+	(pad "6" smd roundrect
+		(at 1.79 0.325)
+		(size 1.25 0.48)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "9114486b-e175-4e59-85d4-e186afe28d1d")
+	)
+	(pad "7" smd roundrect
+		(at 1.79 -0.325)
+		(size 1.25 0.48)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "4a3ed010-a3f3-41b9-b1a1-75a15f49af85")
+	)
+	(pad "8" smd roundrect
+		(at 1.79 -0.975)
+		(size 1.25 0.48)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "0c4cd214-d95a-41b7-888e-9072f36c279d")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/74LVC2G32DP_125.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
